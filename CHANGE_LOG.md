@@ -1,3 +1,7 @@
+## v0.3.11
+ - Test Strategy UX changes Split bullet points to different inputs. 
+ - Ability to remove/edit every strategy or add another custom strategy.
+
 ## v0.3.10
  - Improved analytics 
 
