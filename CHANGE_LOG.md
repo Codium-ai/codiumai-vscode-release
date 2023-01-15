@@ -5,7 +5,7 @@
   - Minor design changes to the Test Strategy text box input
 
 ## v0.3.8
-  1. Bugs fixes and performance improvements
+  - Bug fixes and performance improvements
 
 ## v0.3.7
   - Added panel header component which displays the class/function name + a link to our docs
@@ -15,7 +15,7 @@
   - Bug fixes
 
 ## v0.3.6 
-  - Bugs fixes and performance improvements
+  - Bug fixes and performance improvements
 
 ## v0.3.5 (a.k.a official closed alpha)
   - Generate tests for Python classes and functions
