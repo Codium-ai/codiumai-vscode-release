@@ -1,4 +1,8 @@
-## V0.3.5 (a.k.a official closed alpha)
+## v0.3.6 
+  1. Bugs fixes and performance improvements
+
+
+## v0.3.5 (a.k.a official closed alpha)
   1. Generate tests for Python classes and functions
   2. Get code analysis for selected code
   3. Get tests strategies for selected code
