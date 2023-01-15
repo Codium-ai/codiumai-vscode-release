@@ -1,3 +1,6 @@
+## v0.3.10
+  1. Improved analysis 
+
 ## v0.3.9
   1. Minor design changes to the Test Strategy text box input
 
