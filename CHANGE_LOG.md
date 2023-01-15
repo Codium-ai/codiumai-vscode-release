@@ -1,3 +1,6 @@
+## v0.3.8
+  1. Bugs fixes and performance improvements
+
 ## v0.3.7
   1. Added panel header component which displays the class/function name + a link to our docs
   2. Increased request timeout to 3 min instead of 1 min (to match backend timeout with open ai)
