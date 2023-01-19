@@ -1,3 +1,8 @@
+## v0.4.0
+- Introducing a new feature:
+  - The Test Plan now includes additional instructions for creating tests in various styles.
+  - You can choose from suggested hints or create your own custom instruction.
+
 ## v0.3.12
  - Updated button and titles text
 
