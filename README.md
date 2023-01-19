@@ -82,7 +82,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 ## Links
 
-[![Join our Discord community](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Joincommunity.png)](https://discord.gg/TqNxGqFW)
+[![Join our Discord community](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Joincommunity.png)](https://discord.gg/SgSxuQ65GF)
 
 - Discord community: https://discord.gg/SgSxuQ65GF
 - Code examples: https://github.com/Codium-ai/codium-code-examples
