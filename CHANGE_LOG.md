@@ -1,3 +1,6 @@
+## v0.4.1
+- Minor UI fixes
+
 ## v0.4.0
 - Introducing a new feature:
   - The Test Plan now includes additional instructions for creating tests in various styles.
