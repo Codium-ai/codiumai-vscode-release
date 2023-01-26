@@ -8,7 +8,7 @@
 
 ---
 
-![How it works](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Generatetests013_org_long.gif)
+![How it works](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/v0.4.2-qa-3Full.gif)
 
 _Closed Alpha Version 0.4.2 - Supported in VSCode version 1.58.0 and above_
 
