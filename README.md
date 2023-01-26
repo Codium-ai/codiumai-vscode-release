@@ -8,7 +8,7 @@
 
 ---
 
-![How it works](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/v0.4.2-qa-3Full.gif)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/v0.4.2-qa-3Full.gif)
 
 _Closed Alpha Version 0.4.2 - Supported in VSCode version 1.58.0 and above_
 
@@ -30,33 +30,33 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 ## Installing
 
-![Install](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step1.png)
+![Install](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step1.png)
 <br>
 
-![Successful installation](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step2.png)
+![Successful installation](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/docs/Step2.png)
 <br>
 
-![Github Login page step one](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step3.png)
+![Github Login page step one](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/docs/Step3.png)
 <br>
 
-![Github Login page step two](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step4.png)
+![Github Login page step two](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/docs/Step4.png)
 <br>
 
 ## Getting started
 
-![Review the results](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step5.png)
+![Review the results](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step5.png)
 <br>
 
-![Modify test style](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step6.png)
+![Modify test style](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step6.png)
 <br>
 
-![Modify test cases](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step7.png)
+![Modify test cases](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step7.png)
 <br>
 
-![Regenerate tests](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step8.png)
+![Regenerate tests](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step8.png)
 <br>
 
-![Accept and enjoy](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Step9.png)
+![Accept and enjoy](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Step9.png)
 <br>
 
 1. After installation, you should receive a notification on the bottom of the VSCode editor. Click "Sign in" button in the notification popup to activate Codium with your GitHub account.
@@ -86,7 +86,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 > Pro Tip: Edit the test strategies and redo tests to improve the quality of the next tests generation.
 > <br>
 
-![Tip show panel](https://github.com/Codium-ai/codiumai-vscode-release/blob/main/media/docs/Tip1.png)
+![Tip show panel](https://raw.githubusercontent.com/Codium-ai/codium-code-examples/main/media/docs/Tip1.png)
 <br>
 
 ## How to uninstall
