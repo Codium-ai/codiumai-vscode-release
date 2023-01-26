@@ -1,3 +1,8 @@
+## v0.4.2
+- Ability to generate tests using only test plans picked by the user
+- Users now have the ability to add their own custom test plan or pick from Codium's suggested additional test cases
+- Plan Instructions Menu has been improved with a better user experience and design
+
 ## v0.4.1
 - Minor UI fixes
 
