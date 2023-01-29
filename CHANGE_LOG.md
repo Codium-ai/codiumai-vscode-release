@@ -1,3 +1,8 @@
+## v0.4.3
+- A "Show more/Show less" button has been added to the list of additional test cases.
+- The maximum number of active test cases is now limited to 8.
+- The "Include All" button for additional test cases has been removed.
+
 ## v0.4.2
 - Ability to generate tests using only test plans picked by the user
 - Users now have the ability to add their own custom test plan or pick from Codium's suggested additional test cases
