@@ -1,3 +1,7 @@
+## v0.4.4
+- A new loader has been added to the Test Plan section.
+- After test generation is complete, users can view the tests by clicking on the button and scrolling down.
+
 ## v0.4.3
 - A "Show more/Show less" button has been added to the list of additional test cases.
 - The maximum number of active test cases is now limited to 8.
