@@ -1,3 +1,7 @@
+## v0.4.5
+- Bug fix: Loading status once clicking again on generate tests button
+- Engine improvements 
+
 ## v0.4.4
 - A new loader has been added to the Test Plan section.
 - After test generation is complete, users can view the tests by clicking on the button and scrolling down.
