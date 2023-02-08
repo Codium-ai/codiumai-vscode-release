@@ -1,3 +1,8 @@
+## v0.4.6
+- Added capability to log in with Google
+- Minor bug fixs
+- Engine improvements 
+
 ## v0.4.5
 - Bug fix: Loading status once clicking again on generate tests button
 - Engine improvements 
