@@ -1,6 +1,6 @@
 ## v0.4.6
 - Added capability to log in with Google
-- Minor bug fixs
+- Minor bug fixes
 - Engine improvements 
 
 ## v0.4.5
