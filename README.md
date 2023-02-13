@@ -100,6 +100,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 - Code examples: https://raw.githubusercontent.com/Codium-ai/codium-code-examples
 - Project homepage: https://codium.ai
 - Blog: https://www.codium.ai/blog
+- Support: support@codium.ai
 
 ## Terms of use
 
