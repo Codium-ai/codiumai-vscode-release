@@ -1,3 +1,7 @@
+## v0.4.7
+- Codium can now be triggered from the sidebar panel
+- Minor UI changes
+
 ## v0.4.6
 - Added capability to log in with Google
 - Minor bug fixes
