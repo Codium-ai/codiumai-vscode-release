@@ -1,3 +1,6 @@
+## v0.4.8
+- Error management improvements
+
 ## v0.4.7
 - Codium can now be triggered from the sidebar panel
 - Minor UI changes
