@@ -84,7 +84,9 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 10. Modify the test cases list to fully control generated tests. Remove the cases you don't need, or add them back from `Excluded Tests` tab.
 
-11. `Copy test` to copy a single generated test, `Copy tests` to copy the entire test suite or `Save to file` to save the entire test suite to your project.
+11. On each test case, you can click `Copy test` to copy the test code, or `Exclude test` to remove the test from the test suite.
+
+12. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project. 
 
 > Tip 1: If you can't see the `Generate Tests` button you might have to set `"editor.codeLens": true,` in your VSCode configuration file.
 > <br>
