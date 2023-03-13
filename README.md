@@ -7,7 +7,7 @@
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v042-qa-3Full.gif)
 
-_Alpha Version 0.5.0 - Supported in VSCode version 1.58.0 and above_
+_Alpha Version 0.5.0 - Supported in VSCode version 1.70.0 and above_
 
 ## Features
 
