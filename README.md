@@ -26,6 +26,12 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 ---
 
+## Supported languages
+
+![js](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/js.jpg) ![python](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/python.jpg) ![ts](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ts.jpg)
+
+---
+
 ## Installing
 
 ![Install](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step1.png)
