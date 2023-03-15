@@ -3,9 +3,10 @@
 ---
 
 > CodiumAI analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. Supports Python, Javascript and Typescript.
+
 ---
 
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v042-qa-3Full.gif)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v04-qa9.gif)
 
 _Alpha Version 0.5.0 - Supported in VSCode version 1.70.0 and above_
 
@@ -36,7 +37,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ![Github Login page step one](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step3.png)
 <br>
 
-![Github Login page step two](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step4.png)
+![Login page step two](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step4.png)
 
 <br>
 
@@ -45,17 +46,28 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ![Review the results](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step5.png)
 <br>
 
-![Modify test style](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step6.png)
+![Exclude/include tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step6.png)
 <br>
 
-![Modify test cases](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step7.png)
+![Modify test style](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step7.png)
 <br>
 
-![Regenerate tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step8.png)
+![Add test example](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step8.png)
 <br>
 
-![Accept and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step9.png)
+![Add starting test](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step9.png)
+<br>
 
+![Add input data](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step10.png)
+<br>
+
+![Modify framework](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step11.png)
+<br>
+
+![Regenerate tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step12.png)
+<br>
+
+![Save/copy and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step13.png)
 <br>
 
 1. After installation, you should receive a notification on the bottom of the VSCode editor. Click "Sign in" button in the notification popup to activate CodiumAI with your GitHub or Google account. If you can't see the notification on the bottom right of the editor window, click the button labeled CodiumAI in the bottom status bar.
@@ -71,6 +83,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 6. A new panel will open in your VSCode IDE with the generated tests, along with the test suite, a configuration panel, excluded tests and your code analysis.
 
 7. Options for configurations:
+
    - Add general instructions - choose or add style for your test suite.
    - Add examples of data inputs to enhance and accurate your generated tests.
    - Add example of tests to accurate yout tests suite style to match your style.
@@ -86,7 +99,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 11. On each test case, you can click `Copy test` to copy the test code, or `Exclude test` to remove the test from the test suite.
 
-12. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project. 
+12. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project.
 
 > Tip 1: If you can't see the `Generate Tests` button you might have to set `"editor.codeLens": true,` in your VSCode configuration file.
 > <br>
