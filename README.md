@@ -14,11 +14,11 @@ _Alpha Version 0.5.0 - Supported in VSCode version 1.70.0 and above_
 
 #### 🤖 Generates unit tests automatically
 
-Simply press the "generate tests" button above your class or function, and CodiumAI will generate a set of suggested tests for different use cases.
+Simply press the "generate tests" button above your class or function, or on CodiumAI left panel, and CodiumAI will generate a set of suggested tests for different use cases.
 
 #### ✨ Works seamlessly with VSCode
 
-The generated test wuite will be displayed in a new panel in your VSCode IDE, along with your code analysis, so you can easily review and edit them as needed.
+The generated test suite will be displayed in a new panel in your VSCode IDE, along with your code analysis, so you can easily review and edit them as needed.
 
 #### 🚀 Helps you improve code quality
 
