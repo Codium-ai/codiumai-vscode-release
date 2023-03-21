@@ -73,7 +73,13 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ![Regenerate tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step12.png)
 <br>
 
-![Save/copy and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step13.png)
+![Edit test objectives](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step13.png)
+<br>
+
+![Request more tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step14.png)
+<br>
+
+![Save/copy and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step15.png)
 <br>
 
 1. After installation, you should receive a notification on the bottom of the VSCode editor. Click "Sign in" button in the notification popup to activate CodiumAI with your GitHub or Google account. If you can't see the notification on the bottom right of the editor window, click the button labeled CodiumAI in the bottom status bar.
@@ -99,13 +105,19 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 8. On `Settings` button, change the tests framework to match your framework preferences.
 
-9. Click `Re-generate` button to regenerate the test suite based on your configuration and settings.
+9. Click `Regenerate` button to regenerate the test suite based on your configuration and settings.
 
 10. Modify the test cases list to fully control generated tests. Remove the cases you don't need, or add them back from `Excluded Tests` tab.
 
-11. On each test case, you can click `Copy test` to copy the test code, or `Exclude test` to remove the test from the test suite.
+11. Edit single test - click `Edit` on every test and modify the name or the objective and click `Regenerate` to regenerate the code.
 
-12. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project.
+12. `Regenerate` single test without editing, to enhance the code and get better results.
+
+13. `Give me more tests` to generate 3 more tests for the same code.
+
+14. On each test case, you can click `Copy test` to copy the test code, or `Exclude test` to remove the test from the test suite.
+
+15. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project.
 
 > Tip 1: If you can't see the `Generate Tests` button you might have to set `"editor.codeLens": true,` in your VSCode configuration file.
 > <br>
