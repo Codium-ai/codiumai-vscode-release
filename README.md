@@ -28,7 +28,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 ## Supported languages
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/supported.png) 
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/supported.png)
 
 ---
 
@@ -52,10 +52,13 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ![Review the results](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step5.png)
 <br>
 
-![Exclude/include tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step6.png)
+![Modify single test using chat input](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step6a.png)
 <br>
 
-![Modify test style](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step7.png)
+![Modify single test using objectives](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step6b.png)
+<br>
+
+![Modify all tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step7.png)
 <br>
 
 ![Add test example](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step8.png)
@@ -73,13 +76,13 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ![Regenerate tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step12.png)
 <br>
 
-![Edit test objectives](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step13.png)
+![Request more tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step13.png)
 <br>
 
-![Request more tests](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step14.png)
+![Save/copy and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step14.png)
 <br>
 
-![Save/copy and enjoy](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step15.png)
+![Review code suggestions](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Step15.png)
 <br>
 
 1. After installation, you should receive a notification on the bottom of the VSCode editor. Click "Sign in" button in the notification popup to activate CodiumAI with your GitHub or Google account. If you can't see the notification on the bottom right of the editor window, click the button labeled CodiumAI in the bottom status bar.
