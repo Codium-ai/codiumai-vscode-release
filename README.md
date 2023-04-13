@@ -102,7 +102,6 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
    - Add general instructions - choose or add style for your test suite.
    - Add examples of data inputs to enhance and accurate your generated tests.
    - Add example of tests to accurate yout tests suite style to match your style.
-   - Add your own test to start the test suite from.
    - Choose auto mock on / off - to automatically generate mocks for your tests.
    - Choose number of tests to generate.
 
@@ -110,15 +109,20 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 9. Click `Regenerate` button to regenerate the test suite based on your configuration and settings.
 
-10. Modify the test cases list to fully control generated tests. Remove the cases you don't need, or add them back from `Excluded Tests` tab.
+10. Modify the test cases list to fully control generated tests. Remove the cases you don't need, and keep the tests you want to include.
 
-11. Edit single test - click `Edit` on every test and modify the name or the objective and click `Regenerate` to regenerate the code.
+11. Edit single test - 
+
+   - Click `Edit` on every test and modify the name or the objective and click `Regenerate` to regenerate the code.
+   - Suggest changes in test code using the chat interface below each test.
 
 12. `Regenerate` single test without editing, to enhance the code and get better results.
 
 13. `Give me more tests` to generate 3 more tests for the same code.
 
-14. On each test case, you can click `Copy test` to copy the test code, or `Exclude test` to remove the test from the test suite.
+14. `New custom test` to add another test case, by giving a name and an objective, CodiumAI will generate the test code for you.
+
+14. On each test case, you can click `Copy test` to copy the test code, or `delete` to remove the test from the test suite.
 
 15. On the bottom of the test suite you can click `Copy tests` to copy the entire test suite, or `Save to file` to save the entire test suite to your project.
 
