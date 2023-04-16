@@ -59,35 +59,35 @@ Want more tests? Click on `Give me more tests` at the bottom of the test suite:
 
 Want to remove a test from your test suite? Click on the `delete` button on each test:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/DeleteSingleTest.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
 
 #### Change test suite configurations
 Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/AddTEstExample.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/AddInputData.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/ChangeGeneralConfiguration.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/ModifyFramework.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTEstExample.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddInputData.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
 
 #### Add your own test
 Want to add a custom test that was not automatically generated? Click on `New custom test` button and write the test name and objective, and TestGPT model will generate the test code for you, based on your preferences:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/AddCustomTest.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddCustomTest.png)
 
 #### Code analysis
 Read your code analysis written by our TestGPT model, you can use it for documentation and to make sure your code is doing what it should. Click on the `Code Analysis` tab and find out:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/CodeAnalysis.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeAnalysis.png)
 
 #### Code suggestions
 Our TestGPT model can find some insights about your code and suggests some modifications that you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/CodeSuggestions.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeSuggestions.png)
 
 #### Save your test suite
 When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or simply click on `Open as a file` and we will create a test file for you:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/media/docs/OpenCopy.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
 
 ---
