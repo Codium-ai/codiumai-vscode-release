@@ -49,9 +49,9 @@ Want to modify the objective of a single test? Edit the name or the objective of
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyObjective.png)
 
-You can also just click the `Regenerate` button, without changing the test description, and get an alternative code for this test:
+You can also just click the `Reflect & Regenerate` button, without changing the test description, and get an alternative code for this test:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerteSingleTest.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndRegenerate.png)
 
 Want more tests? Click on `Give me more tests` at the bottom of the test suite:
 
@@ -60,6 +60,15 @@ Want more tests? Click on `Give me more tests` at the bottom of the test suite:
 Want to remove a test from your test suite? Click on the `delete` button on each test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
+
+#### Run your tests
+You can run the generated tests directly from the CodiumAI panel. Simply click `Run All Tests` button to run all the test, or `Run` button on each single test:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RunYourTests.png)
+
+Your test failed? You can easily fix it by clickeing `Reflect & Fix` button on the failing test:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndFix.png)
 
 #### Change test suite configurations
 Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
