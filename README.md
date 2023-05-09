@@ -14,7 +14,7 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 #### 🔬 Analyzes your code
 
-#### 💡 Suggests code mofications to improve the performance and correctness of your code
+#### 💡 Suggests code modifications to improve the performance and correctness of your code
 
 #### 🚀 Helps you improve code quality
 
