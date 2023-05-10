@@ -16,6 +16,8 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 #### 💡 Suggests code modifications to improve the performance and correctness of your code
 
+#### 💫 Finds potential bugs in your code and suggests ways to fix them
+
 #### 🚀 Helps you improve code quality
 
 By creating comprehensive test suites, our tool helps you catch and fix bugs early, and ensures that your code is reliable and maintainable.
@@ -34,6 +36,12 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 Generate tests for a function or a class, using the `Generate tests` button above a function/class name, or using CodiumAI panel and choose the desired function/class:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
+
+Generate tests for code snippet, by selecting the code you want to test, right-click on it and choose `CodiumAI - Generate Tests` option:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
+
+##### Watch tutorial -> https://youtu.be/BxFuKFX_KSA
 
 #### Review the results
 CodiumAI tab will present the test results - review the test names, objectives, types, and the test code:
@@ -66,9 +74,15 @@ You can run the generated tests directly from the CodiumAI panel. Simply click `
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RunYourTests.png)
 
-Your test failed? You can easily fix it by clickeing `Reflect & Fix` button on the failing test:
+The test failed? See the log by clicking the `failed` button, and easily fix the test by clickeing `Reflect & Fix` button:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndFix.png)
+
+When TestGPT identifies possible bug in your code, it alerts you and gives you relevant information on the bug and possible fix, click on `Possible Code Bug` to see the data:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/PossibleCodeBug.png)
+
+##### Watch tutorial -> https://youtu.be/6SJz_YH84Bw
 
 #### Change test suite configurations
 Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
@@ -92,6 +106,12 @@ Read your code analysis written by our TestGPT model, you can use it for documen
 Our TestGPT model can find some insights about your code and suggests some modifications that you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeSuggestions.png)
+
+Choose the suggestion you want to apply, and merge them to your code:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
+
+##### Watch tutorial -> https://youtu.be/yK713au2MJk
 
 #### Save your test suite
 When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or simply click on `Open as a file` and we will create a test file for you:
