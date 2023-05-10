@@ -87,7 +87,7 @@ When TestGPT identifies possible bug in your code, it alerts you and gives you r
 #### Change test suite configurations
 Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTEstExample.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestExample.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddInputData.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
