@@ -140,6 +140,7 @@ When you're happy with your generated test suite, you can click on `Copy tests` 
 - Discord community: https://discord.gg/kG35uSHDBc
 - CodiumAI site: https://codium.ai
 - Blog: https://www.codium.ai/blog/
+- Troubleshooting: https://www.codium.ai/blog/technical-faq-and-troubleshooting/
 - Support: support@codium.ai
 
 ## Terms of use
