@@ -69,18 +69,30 @@ Want to remove a test from your test suite? Click on the `delete` button on each
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
 
-#### Run your tests
+#### Run your tests and find possible bugs in your code
 You can run the generated tests directly from the CodiumAI panel. Simply click `Run All Tests` button to run all the test, or `Run` button on each single test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RunYourTests.png)
 
-The test failed? See the log by clicking the `failed` button, and easily fix the test by clickeing `Reflect & Fix` button:
+The test failed? See the log by clicking the `failed` button, and easily fix the test by clickeing `Fix Test` button:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndFix.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixTesr.png)
 
 When TestGPT identifies possible bug in your code, it alerts you and gives you relevant information on the bug and possible fix, click on `Possible Code Bug` to see the data:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/PossibleCodeBug.png)
+
+Click `Fix Code` to get a possible fix to your bug:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixCode.png)
+
+After analyzing, click `Review Fix` button to see the code diff:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewFix.png)
+
+Review the suggested fix, and if you approve it, click `Apply to my Code` button merge it to your code:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ApplyFix.png)
 
 ##### Watch tutorial -> https://youtu.be/6SJz_YH84Bw
 
