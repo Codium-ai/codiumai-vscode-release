@@ -94,7 +94,7 @@ Review the suggested fix, and if you approve it, click `Apply to my Code` button
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ApplyFix.png)
 
-##### Watch tutorial -> https://youtu.be/6SJz_YH84Bw
+##### Watch tutorial -> https://youtu.be/l_ITy2_KDZ0
 
 #### Change test suite configurations
 Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
