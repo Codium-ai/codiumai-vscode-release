@@ -76,7 +76,7 @@ You can run the generated tests directly from the CodiumAI panel. Simply click `
 
 The test failed? See the log by clicking the `failed` button, and easily fix the test by clickeing `Fix Test` button:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixTesr.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixTest.png)
 
 When TestGPT identifies possible bug in your code, it alerts you and gives you relevant information on the bug and possible fix, click on `Possible Code Bug` to see the data:
 
