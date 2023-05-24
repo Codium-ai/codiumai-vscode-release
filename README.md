@@ -61,6 +61,10 @@ You can also just click the `Reflect & Regenerate` button, without changing the 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndRegenerate.png)
 
+You can manually edit the test within the paenl:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ManualEditTest.png)
+
 Want more tests? Click on `Give me more tests` at the bottom of the test suite:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RequestMoreTests.png)
