@@ -48,6 +48,13 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
 
+#### Explore behavior coverage
+CodiumAI is generating a behavior list of your code, and mark each behavior as covered or not covered, based on the generated test.
+The coverage percentages is calculated by the number of covered behaviors.
+You can refresh the coverage when you modify your test suite (add, remove of modify tests):
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/BehaviorCoverage.png)
+
 #### Modify tests
 Want to modify a single test code? Simply type the change you want inside the `Suggest changes..` field, and TestGPT will modify the code based on your request:
 
@@ -134,6 +141,11 @@ When you're happy with your generated test suite, you can click on `Copy tests` 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
+
+### Report a bug
+Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
 
 ---
 > Tip 1: If you can't see the `Generate Tests` button you might have to set `"editor.codeLens": true,` in your VSCode configuration file.
