@@ -89,7 +89,7 @@ Want to modify the objective of a single test? Edit the name or the objective of
 
 You can also just click the `Regenerate` button, without changing the test description, and get an alternative code for this test:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReflectAndRegenerate.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerateSingleTest.png)
 
 You can manually edit the test within the panel:
 
@@ -133,10 +133,9 @@ Review the suggested fix, and if you approve it, click `Apply to my Code` button
 
 #### Change test suite configurations
 
-Improve and personalize your test suite by giving general instructions, examples of input and tests and select your preferred testing framework in the `Configuration` section:
+Improve and personalize your test suite by giving general instructions, example of tests and select your preferred testing framework in the `Configuration` section:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestExample.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddInputData.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
 
