@@ -53,7 +53,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 #### Generate tests
 
-Generate tests for a function or a class, using the `Generate tests` button above a function/class name, or using CodiumAI panel and choose the desired function/class:
+Generate tests for a function or a class, using the `Test this class/function/method` button above a function/class/method name:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
 
