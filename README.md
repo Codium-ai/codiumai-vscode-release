@@ -1,4 +1,9 @@
+<div align="center">
+<div align="center">
+
 # CodiumAI - Meaningful tests for busy devs
+
+</div>
 
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label&color=purple)](https://discord.gg/kG35uSHDBc)
 
@@ -7,6 +12,8 @@
 **CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. Supports Python, Javascript and Typescript.
 
 ---
+
+</div>
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v04-qa9.gif)
 
@@ -62,6 +69,13 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
 
+#### Quick Actions - Generate tests for behavior
+
+Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for, 
+and get the generated test inside your editor.
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-Tests.png)
+
 #### Explore behavior coverage
 
 CodiumAI generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
@@ -76,6 +90,12 @@ For behaviors that are not covered by tests, you can click on the "Generate test
 for this behavior.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestForBehavior.png)
+
+#### Add more behaviors
+
+Missing a behavior? Simply add new behaviors and generate tests for them:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddBehavior.png)
 
 ##### Watch tutorial -> https://youtu.be/xHwIvCjvQDI 
 
@@ -141,11 +161,11 @@ Improve and personalize your test suite by giving general instructions, example 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
 
-#### Add your own test
+#### Save your test suite
 
-Want to add a custom test that was not automatically generated? Click on `New custom test` button and write the test name and objective, and TestGPT model will generate the test code for you, based on your preferences:
+When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or simply click on `Open as a file` and we will create a test file for you:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddCustomTest.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
 #### Code analysis
 
@@ -163,13 +183,14 @@ Choose the suggestion you want to apply, and merge them to your code:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
 
+#### Quick Actions - Code Suggestions
+
+Quickly get code suggestions from your code using Quick Actions - Click on the CodiumAI panel on the left, click on the "Get code suggestions for this class" option,
+and get suggestions from your editor as comments
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions.png)
+
 ##### Watch tutorial -> https://youtu.be/yK713au2MJk
-
-#### Save your test suite
-
-When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or simply click on `Open as a file` and we will create a test file for you:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
 ### Report a bug
 
