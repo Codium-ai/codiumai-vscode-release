@@ -17,7 +17,7 @@
 
 </div>
 
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v04-qa9.gif)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
 
 _Beta Version - Supported in VSCode version 1.70.0 and above_
 
