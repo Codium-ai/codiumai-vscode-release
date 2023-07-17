@@ -13,6 +13,8 @@
 
 ---
 
+## **NEW!! Get code suggestions for all languages!**
+
 </div>
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/v04-qa9.gif)
@@ -37,7 +39,14 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 ## Supported languages
 
+Test generation:
+
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/supported.png)
+
+
+****NEW!**** Code suggestions:
+
+# All Languages
 
 ---
 
@@ -46,18 +55,18 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 > #### TL;DR:
 
 > - Click on the `Generate Tests` button above a function/class/method name
-> - Use CodiumAI side panel to generate tests for a function/class/method
+> - Use CodiumAI quick actions left panel to generate tests for behaviors and to get inline code suggestions
 > - Use CodiumAI's keybinding shortcut - mac: `cmd+ctrl+c` | linux: `alt+shift+c` | windows: `ctrl+win+z`
 > - Select code -> right click -> Choose "CodiumAI - Generate Tests"
 > - Or just use the command palette and select "CodiumAI - Generate Tests"
 
-#### Generate tests
+#### Generate tests and Code Suggestions
 
-Generate tests for a function or a class, using the `Test this class/function/method` button above a function/class/method name:
+Generate tests for a function, a class or a method, using the `Test this class/function/method` button above a function/class/method name:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
 
-Generate tests for code snippet, by selecting the code you want to test, right-click on it and choose `CodiumAI - Generate Tests` option:
+Generate tests for code snippets by selecting the code you want to test, right-clicking on it and choosing `CodiumAI - Generate Tests` option:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
 
@@ -69,12 +78,27 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
 
-#### Quick Actions - Generate tests for behavior
+### Quick Actions
+
+#### Generate tests for behaviors
 
 Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for, 
 and get the generated test inside your editor.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-Tests.png)
+
+#### Get code suggestions - FOR ALL LANGUAGES - NEW!!
+
+Quickly get inline code suggestions for your code in any language! Click on the CodiumAI panel on the left, choose "Get code suggestions for this class / function",
+and get inline comments with suggestions to improve your code:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions.png)
+
+#### Apply suggestions to your code
+
+Review the code improvement, click on "Apply this suggestion" or "Apply all suggestions" and review the changes in a diff view:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions-Apply.png)
 
 #### Explore behavior coverage
 
@@ -183,12 +207,6 @@ Choose the suggestion you want to apply, and merge them to your code:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
 
-#### Quick Actions - Code Suggestions
-
-Quickly get code suggestions from your code using Quick Actions - Click on the CodiumAI panel on the left, click on the "Get code suggestions for this class" option,
-and get suggestions from your editor as comments
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions.png)
 
 ##### Watch tutorial -> https://youtu.be/yK713au2MJk
 
