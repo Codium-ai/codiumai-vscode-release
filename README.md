@@ -136,10 +136,6 @@ Want to modify a single test code? Simply type the change you want inside the `S
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SuggestChanges.png)
 
-Want to modify the objective of a single test? Edit the name or the objective of a single test, and click regenerate:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyObjective.png)
-
 You can also just click the `Regenerate` button, without changing the test description, and get an alternative code for this test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerateSingleTest.png)
