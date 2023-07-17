@@ -80,6 +80,8 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ### Quick Actions
 
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26-quickactions.gif)
+
 #### Generate tests for behaviors
 
 Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for, 
