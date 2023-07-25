@@ -29,11 +29,11 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 #### 💡 Suggests code modifications to improve the performance and correctness of your code
 
-#### 💫 Finds potential bugs in your code and suggests ways to fix them
+#### 💫 Finds potential bugs in your code and suggest ways to fix them
 
 #### 🚀 Helps you improve code quality
 
-By creating comprehensive test suites, our tool helps you catch and fix bugs early, and ensures that your code is reliable and maintainable.
+By creating comprehensive test suites, our tool helps you catch and fix bugs early and ensures that your code is reliable and maintainable.
 
 ---
 
@@ -43,8 +43,7 @@ Test generation:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/supported.png)
 
-
-****NEW!**** Code suggestions:
+\***\*NEW!\*\*** Code suggestions:
 
 # All Languages
 
@@ -62,11 +61,11 @@ Test generation:
 
 #### Generate tests and Code Suggestions
 
-Generate tests for a function, a class or a method, using the `Test this class/function/method` button above a function/class/method name:
+Generate tests for a function, a class, or a method using the `Test this class/function/method` button above a function/class/method name:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
 
-Generate tests for code snippets by selecting the code you want to test, right-clicking on it and choosing `CodiumAI - Generate Tests` option:
+Generate tests for code snippets by selecting the code you want to test, right-clicking on it and choosing the `CodiumAI - Generate Tests` option:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
 
@@ -84,7 +83,7 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 #### Generate tests for behaviors
 
-Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for, 
+Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for,
 and get the generated test inside your editor.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-Tests.png)
@@ -98,7 +97,7 @@ and get inline comments with suggestions to improve your code:
 
 #### Get code suggestions for selected text
 
-You can also get code and text suggestions for any code or text - simply select the code or the text you want to get suggestions for, and click on 
+You can also get code and text suggestions for any code or text - simply select the code or the text you want to get suggestions for, and click on
 `Get code suggestion for the selected text` option in the left panel
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions-SelectCode.png)
@@ -130,7 +129,7 @@ Missing a behavior? Simply add new behaviors and generate tests for them:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddBehavior.png)
 
-##### Watch tutorial -> https://youtu.be/xHwIvCjvQDI 
+##### Watch tutorial -> https://youtu.be/xHwIvCjvQDI
 
 #### Modify tests
 
@@ -202,6 +201,12 @@ Read your code analysis written by our TestGPT model, you can use it for documen
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeAnalysis.png)
 
+#### Generate Docstring
+
+Generate Docstring to your code quickly by clicking the "Generate Docstring" button inside the Code Analysis tab. Review the generated comments and merge them into your code.
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateDocstring.png)
+
 #### Code suggestions
 
 Our TestGPT model can find some insights about your code and suggests some modifications that you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
@@ -212,7 +217,6 @@ Choose the suggestion you want to apply, and merge them to your code:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
 
-
 ##### Watch tutorial -> https://youtu.be/yK713au2MJk
 
 ### Report a bug
@@ -222,6 +226,7 @@ Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](http
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
 
 ### Report a bug
+
 Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
