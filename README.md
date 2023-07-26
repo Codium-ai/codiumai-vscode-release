@@ -1,9 +1,6 @@
 <div align="center">
-<div align="center">
 
 # CodiumAI - Meaningful tests for busy devs
-
-</div>
 
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label&color=purple)](https://discord.gg/kG35uSHDBc)
 
@@ -137,7 +134,7 @@ Want to modify a single test code? Simply type the change you want inside the `S
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SuggestChanges.png)
 
-You can also just click the `Regenerate` button, without changing the test description, and get an alternative code for this test:
+You can also just click the `Regenerate` button and get an alternative code for this test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerateSingleTest.png)
 
@@ -197,7 +194,7 @@ When you're happy with your generated test suite, you can click on `Copy tests` 
 
 #### Code analysis
 
-Read your code analysis written by our TestGPT model, you can use it for documentation and to make sure your code is doing what it should. Click on the `Code Analysis` tab and find out:
+Read your code analysis written by our TestGPT model. You can use it for documentation and to make sure your code is doing what it should. Click on the `Code Analysis` tab and find out:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeAnalysis.png)
 
@@ -209,11 +206,11 @@ Generate Docstring to your code quickly by clicking the "Generate Docstring" but
 
 #### Code suggestions
 
-Our TestGPT model can find some insights about your code and suggests some modifications that you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
+Our TestGPT model can find some insights about your code and suggests some modifications you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeSuggestions.png)
 
-Choose the suggestion you want to apply, and merge them to your code:
+Choose the suggestion you want to apply, and merge them into your code:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
 
