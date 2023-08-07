@@ -85,10 +85,9 @@ and get the generated test inside your editor.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-Tests.png)
 
-#### Get code suggestions - FOR ALL LANGUAGES - NEW!!
+#### Get code suggestions, enhance your code, get code explanation and docstring - FOR ALL LANGUAGES - NEW!!
 
-Quickly get inline code suggestions for your code in any language! Click on the CodiumAI panel on the left, choose `Get code suggestions for this class / function`,
-and get inline comments with suggestions to improve your code:
+Quickly get inline code suggestions, code enhancement, docstring, and code explanations for your code in any language! Click on the CodiumAI panel on the left, and choose the desired command:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions.png)
 
@@ -146,6 +145,10 @@ Want more tests? Click on `Give me more tests` at the bottom of the test suite:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RequestMoreTests.png)
 
+You can focus on code changes from your uncommitted changes, read the code explanation of your changes and generate tests for them:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeChanges.png)
+
 Want to remove a test from your test suite? Click on the `delete` button on each test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
@@ -192,9 +195,9 @@ When you're happy with your generated test suite, you can click on `Copy tests` 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
-#### Code analysis
+#### Code explanation
 
-Read your code analysis written by our TestGPT model. You can use it for documentation and to make sure your code is doing what it should. Click on the `Code Analysis` tab and find out:
+Read your code explanation written by our TestGPT model. You can use it for documentation, see usage examples, and ensure your code does what it should. You can generate docstring and merge them directly to your code, and also enhance your code quickly with the `enhance code` option. Click on the `Code Explanation` tab and find out:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeAnalysis.png)
 
