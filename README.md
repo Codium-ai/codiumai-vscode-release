@@ -6,11 +6,11 @@
 
 ---
 
-**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. Supports Python, Javascript and Typescript.
+**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. Supports all languages!
 
 ---
 
-## **NEW!! Get code suggestions for all languages!**
+## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
 </div>
 
@@ -20,41 +20,34 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ## Features
 
-#### 🤖 Generates unit tests suite automatically
+#### 🤖 Generate unit tests suite automatically
 
-#### 🔬 Analyzes your code
+#### 🔬 Analyze your code
 
-#### 💡 Suggests code modifications to improve the performance and correctness of your code
+#### 💡 Suggest code modifications to improve the performance and correctness of your code
 
-#### 💫 Finds potential bugs in your code and suggest ways to fix them
+#### 💫 Find potential bugs in your code and suggest ways to fix them
 
-#### 🚀 Helps you improve code quality
+#### 📄 Add docstring automatically and enhance your code
+
+#### 🚀 Help you improve code quality
 
 By creating comprehensive test suites, our tool helps you catch and fix bugs early and ensures that your code is reliable and maintainable.
 
 ---
 
-## Supported languages
+## How to use CodiumAI?
 
-Test generation:
+#### TL;DR:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/supported.png)
-
-\***\*NEW!\*\*** Code suggestions:
-
-# All Languages
+- Click on the `Generate Tests` button above a function/class/method name
+- Use CodiumAI quick actions left panel to generate tests for behaviors, get inline code suggestions, enhance your code, and add docstring.
+- Use CodiumAI's keybinding shortcut - mac: `cmd+ctrl+c` | Linux: `alt+shift+c` | windows: `ctrl+win+z`
+- Right-click on your code -> Choose `CodiumAI - ` and choose the desired command
+- Or just use the command palette and select `CodiumAI - Generate Tests`
 
 ---
 
-## How to use CodiumAI?
-
-> #### TL;DR:
-
-> - Click on the `Generate Tests` button above a function/class/method name
-> - Use CodiumAI quick actions left panel to generate tests for behaviors and to get inline code suggestions
-> - Use CodiumAI's keybinding shortcut - mac: `cmd+ctrl+c` | linux: `alt+shift+c` | windows: `ctrl+win+z`
-> - Select code -> right click -> Choose `CodiumAI - Generate Tests`
-> - Or just use the command palette and select `CodiumAI - Generate Tests`
 
 #### Generate tests and Code Suggestions
 
@@ -62,9 +55,11 @@ Generate tests for a function, a class, or a method using the `Test this class/f
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
 
-Generate tests for code snippets by selecting the code you want to test, right-clicking on it and choosing the `CodiumAI - Generate Tests` option:
+Generate tests for code snippets by selecting the code you want to test, right-clicking on it, choosing the `CodiumAI - ` and selecting the desired command:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
+
+<NEW GIF>
 
 ##### Watch tutorial -> https://youtu.be/BxFuKFX_KSA
 
@@ -93,7 +88,7 @@ Quickly get inline code suggestions, code enhancement, docstring, and code expla
 
 #### Get code suggestions for selected text
 
-You can also get code and text suggestions for any code or text - simply select the code or the text you want to get suggestions for, and click on
+You can also get code and text suggestions for any code or text - select the code or the text you want to get suggestions for and click on
 `Get code suggestion for the selected text` option in the left panel
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions-SelectCode.png)
@@ -133,7 +128,7 @@ Want to modify a single test code? Simply type the change you want inside the `S
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SuggestChanges.png)
 
-You can also just click the `Regenerate` button and get an alternative code for this test:
+You can also click the `Regenerate` button and get an alternative code for this test:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerateSingleTest.png)
 
@@ -183,7 +178,7 @@ Review the suggested fix, and if you approve it, click `Apply to my Code` button
 
 #### Change test suite configurations
 
-Improve and personalize your test suite by giving general instructions, example of tests and select your preferred testing framework in the `Configuration` section:
+Improve and personalize your test suite by giving general instructions, providing examples of tests and selecting your preferred testing framework in the `Configuration` section:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestExample.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
@@ -191,7 +186,7 @@ Improve and personalize your test suite by giving general instructions, example 
 
 #### Save your test suite
 
-When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or simply click on `Open as a file` and we will create a test file for you:
+When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or click on `Open as a file` and we will create a test file for you:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
@@ -203,7 +198,7 @@ Read your code explanation written by our TestGPT model. You can use it for docu
 
 #### Generate Docstring
 
-Generate Docstring to your code quickly by clicking the "Generate Docstring" button inside the Code Analysis tab. Review the generated comments and merge them into your code.
+Generate Docstring to your code quickly by clicking the "Generate Docstring" button inside the Code Explanation tab. Review the generated comments and merge them into your code.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateDocstring.png)
 
