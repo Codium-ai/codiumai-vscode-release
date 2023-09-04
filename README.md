@@ -59,7 +59,7 @@ Generate tests for code snippets by selecting the code you want to test, right-c
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
 
-<NEW GIF>
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-languages-vscode.gif)
 
 ##### Watch tutorial -> https://youtu.be/BxFuKFX_KSA
 
