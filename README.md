@@ -4,7 +4,7 @@
 [![Twitter URL](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CodiumAI)    [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kG35uSHDBc)    [![Twitter URL](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@codiumai)
 ---
 
-**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. Supports all languages!
+**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. It supports all languages!
 
 ---
 
@@ -105,7 +105,11 @@ You can refresh the coverage when you modify your test suite (add, remove, or mo
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/BehaviorCoverage.png)
 
-#### Add test for uncovered behavior
+For each behavior, explore its sub-behaviors for more test variations:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SubBehaviors.png)
+
+#### Add tests for uncovered behavior
 
 For behaviors that are not covered by tests, you can click on the `Generate test` button next to it, and CodiumAI will generate a test
 for this behavior.
