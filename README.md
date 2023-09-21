@@ -10,13 +10,18 @@
 
 </div>
 
-## NEW! Introducing 2 Teams-plan features now available now for a limited time!
+## 🌟 NEW! Explore 2 Teams-plan features, available for a limited time!
 
 ### Prepare for Pull Request
+Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
+Try out our new chat feature today! See how it works:
+
 ![PrePR](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/prepr.gif)
 
 
 ### Extend your current test suites 
+Already have a test suite? Let CodiumAI help you with adding missing tests to it! Currently supporting Python, JS and TS.
+See how it works:
 
 ![Extend Test Suite](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/extend-test-suite.gif)
 
