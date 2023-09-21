@@ -13,17 +13,16 @@
 ## NEW! Introducing 2 Teams-plan features now available now for a limited time!
 
 ### Prepare for Pull Request
+![PrePR](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/prepr.gif)
 
 
 ### Extend your current test suites 
 
+![Extend Test Suite](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/extend-test-suite.gif)
 
-
-
+---
 
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
-
-
 
 ### How to generate tests for Python, JavaScript and TypeScript:
 
