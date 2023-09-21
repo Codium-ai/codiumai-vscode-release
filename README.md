@@ -8,9 +8,22 @@
 
 ---
 
+</div>
+
+## NEW! Introducing 2 Teams-plan features now available now for a limited time!
+
+### Prepare for Pull Request
+
+
+### Extend your current test suites 
+
+
+
+
+
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
-</div>
+
 
 ### How to generate tests for Python, JavaScript and TypeScript:
 
