@@ -10,7 +10,21 @@
 
 </div>
 
-## 🌟 NEW! Explore 2 Teams-plan features, available for a limited time!
+## **SUPPORTS ALL PROGRAMMING LANGUAGES**
+
+### How to generate tests for Python, JavaScript and TypeScript:
+
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
+
+### How to generate tests for all other languages:
+
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
+
+_Beta Version - Supported in VSCode version 1.70.0 and above_
+
+---
+
+## 🌟 NEW! Explore two of our upcoming [Teams plan features](https://www.codium.ai/pricing/), available for a limited time!
 
 ### Prepare for Pull Request
 Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
@@ -26,18 +40,6 @@ See how it works:
 ![Extend Test Suite](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/extend-test-suite.gif)
 
 ---
-
-## **SUPPORTS ALL PROGRAMMING LANGUAGES**
-
-### How to generate tests for Python, JavaScript and TypeScript:
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
-
-### How to generate tests for all other languages:
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-languages-gif.gif)
-
-_Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ## Features
 
