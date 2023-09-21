@@ -24,7 +24,7 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ---
 
-## 🌟 NEW! Explore two of our upcoming [Teams plan features](https://www.codium.ai/pricing/), available for a limited time!
+## 🌟 NEW! Explore two of our upcoming [Teams plan](https://www.codium.ai/pricing/) features, available for a limited time!
 
 ### Prepare for Pull Request
 Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
