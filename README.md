@@ -18,7 +18,7 @@
 
 ### How to generate tests for all other languages:
 
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-languages-gif.gif)
 
 _Beta Version - Supported in VSCode version 1.70.0 and above_
 
