@@ -12,7 +12,13 @@
 
 </div>
 
+### How to generate tests for Python, JavaScript and TypeScript:
+
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
+
+### How to generate tests for all other languages:
+
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
 
 _Beta Version - Supported in VSCode version 1.70.0 and above_
 
