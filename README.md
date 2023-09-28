@@ -12,11 +12,11 @@
 
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
-### How to generate tests for Python, JavaScript and TypeScript:
+### Generate tests, code explanations, and code suggestions using the CodiumAI links:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
 
-### How to generate tests for all other languages:
+### You can also trigger CodiumAI by right-clicking and choosing CodiumAI:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
 
