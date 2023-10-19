@@ -24,9 +24,11 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ---
 
+## Explore our new CodiumAI Chat!
+
 ## 🌟 NEW! Explore two of our upcoming [Teams plan](https://www.codium.ai/pricing/) features, available for a limited time!
 
-### Prepare for Pull Request
+### Prepare for Pull Request using our new CodiumAI Chat!
 Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
 Try out our new chat feature today! See how it works:
 
@@ -63,8 +65,8 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 
 #### TL;DR:
 
-- Click on the `Generate Tests` button above a function/class/method name
-- Use CodiumAI quick actions left panel to generate tests for behaviors, get inline code suggestions, enhance your code, and add docstring.
+- Click on the `CodiumAI` button above a function/class/method name
+- Use CodiumAI chat to get code explanation, enhance your code, add docstring and get improvement suggestions to your code.
 - Use CodiumAI's keybinding shortcut - mac: `cmd+ctrl+c` | Linux: `alt+shift+c` | windows: `ctrl+win+z`
 - Right-click on your code -> Choose `CodiumAI - ` and choose the desired command
 - Or just use the command palette and select `CodiumAI - Generate Tests`
@@ -72,7 +74,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ---
 
 
-#### Generate tests and Code Suggestions
+### Generate tests
 
 Generate tests for a function, a class, or a method using the `Test this class/function/method` button above a function/class/method name:
 
@@ -92,37 +94,7 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
 
-### Quick Actions
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26-quickactions.gif)
-
-#### Generate tests for behaviors
-
-Quickly generate tests from behaviors using Quick Actions - Click on the CodiumAI panel on the left, choose the behavior you want to generate tests for,
-and get the generated test inside your editor.
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-Tests.png)
-
-#### Get code suggestions, enhance your code, get code explanation and docstring - FOR ALL LANGUAGES - NEW!!
-
-Quickly get inline code suggestions, code enhancement, docstring, and code explanations for your code in any language! Click on the CodiumAI panel on the left, and choose the desired command:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions.png)
-
-#### Get code suggestions for selected text
-
-You can also get code and text suggestions for any code or text - select the code or the text you want to get suggestions for and click on
-`Get code suggestion for the selected text` option in the left panel
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions-SelectCode.png)
-
-#### Apply suggestions to your code
-
-Review the code improvement, click on `Apply this suggestion` or `Apply all suggestions` and review the changes in a diff view:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/QuickActions-CodeSuggestions-Apply.png)
-
-#### Explore behavior coverage
+### Explore behavior coverage
 
 CodiumAI generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
 The number of covered behaviors calculates the coverage percentages.
@@ -217,29 +189,38 @@ When you're happy with your generated test suite, you can click on `Copy tests` 
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
 
-#### Code explanation
+### CodiumAI Chat - NEW!
 
-Read your code explanation written by our TestGPT model. You can use it for documentation, see usage examples, and ensure your code does what it should. You can generate docstring and merge them directly to your code, and also enhance your code quickly with the `enhance code` option. Click on the `Code Explanation` tab and find out:
+Use our chat commands to improve your code! See how it works:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeAnalysis.png)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/chat-gif.gif)
+
+#### Explain your code
+
+Get a detailed code explanation on every component or code snippet you want, using CodiumAI chat command /explain:
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/explain.png)
+
+#### Enhance your code
+
+Choose the component you want to enhance, or select the relevant lines, and choose /enhance command in our CodiumAI chat. You can add additional instructions as a free text.
+
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/enhance.png)
 
 #### Generate Docstring
 
-Generate Docstring to your code quickly by clicking the "Generate Docstring" button inside the Code Explanation tab. Review the generated comments and merge them into your code.
+Choose the component you want to add docstring to, or select the relevant lines, and choose /docstring command in our CodiumAI chat. You can add additional instructions as a free text.
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateDocstring.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/docstring.png)
 
-#### Code suggestions
+#### Get improvement suggestions
 
-Our TestGPT model can find some insights about your code and suggests some modifications you can apply to your code (to improve performance, correctness, and more). Click on the `Code Suggestions` tab and find out:
+Get suggestions to improve your code correctness and robustness, by choosing /improve command in CodiumAI chat. You can add additional instructions as a free text.
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeSuggestions.png)
+![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/improve.png)
 
-Choose the suggestion you want to apply, and merge them into your code:
 
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/MergeSuggestions.png)
 
-##### Watch tutorial -> https://youtu.be/yK713au2MJk
 
 ### Report a bug
 
@@ -247,11 +228,6 @@ Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](http
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
 
-### Report a bug
-
-Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
 
 ---
 
