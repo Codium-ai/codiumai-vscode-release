@@ -24,7 +24,7 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ---
 
-## Explore our new CodiumAI Chat!
+## Explore our new [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
 
 ## 🌟 NEW! Explore two of our upcoming [Teams plan](https://www.codium.ai/pricing/) features, available for a limited time!
 
