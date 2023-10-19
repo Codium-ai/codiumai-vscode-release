@@ -12,9 +12,9 @@
 
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
-### Generate tests, code explanations, and code suggestions using the CodiumAI links:
+### Generate tests using CodiumAI:
 
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/demo-v0.6.26.gif)
+![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Tests-Gif.gif)
 
 ### You can also trigger CodiumAI by right-clicking and choosing CodiumAI:
 
