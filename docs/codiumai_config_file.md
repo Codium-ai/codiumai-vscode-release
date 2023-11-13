@@ -1,8 +1,10 @@
 The CodiumAI extension can be configured via a `.toml` configuration file.
 
-Please create a file named `.codiumai.toml` or `.codiumai.local.toml` in your source directory.
+Please create a file named `.codiumai.toml` or `.codiumai.local.toml` in your project.
 
-The file can be next to the code under test or inside any parent directory.
+TYPICALLY, the best location of the file is next to the relevant `package.json` file.
+
+However - CodiumAI will pick up the file if it's in the same directory as the file under test, or inside any parent directory.
 
 You can find an **example config file** at the bottom of this page.
 
@@ -74,12 +76,12 @@ The placeholder TEST_FILEPATH will be replaced with the actual test file path - 
 
 EXAMPLES:  
 Mocha:  
-```shell
+```bash
 npx ts-mocha TEST_FILEPATH --require ./test/mocha/setup.ts
 ```
 
 Jest:  
-```shell
+```bash
 npx jest --runTestsByPath TEST_FILEPATH  
 ```
 
