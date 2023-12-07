@@ -10,6 +10,42 @@
 
 </div>
 
+<!-- Table of Contents -->
+## Table of Contents
+1. [SUPPORTS ALL PROGRAMMING LANGUAGES](#supports-all-programming-languages)
+2. [Explore our new CodiumAI Chat](#explore-our-new-codiumai-chat)
+3. [🌟 NEW! Explore two of our upcoming Teams plan features, available for a limited time!](#-new-explore-two-of-our-upcoming-teams-plan-features-available-for-a-limited-time)
+   - [Prepare for Pull Request using our new CodiumAI Chat!](#prepare-for-pull-request-using-our-new-codiumai-chat)
+   - [Extend your current test suites](#extend-your-current-test-suites)
+4. [Features](#features)
+   - [🤖 Generate unit tests suite automatically](#-generate-unit-tests-suite-automatically)
+   - [🔬 Analyze your code](#-analyze-your-code)
+   - [💡 Suggest code modifications to improve the performance and correctness of your code](#-suggest-code-modifications-to-improve-the-performance-and-correctness-of-your-code)
+   - [💫 Find potential bugs in your code and suggest ways to fix them](#-find-potential-bugs-in-your-code-and-suggest-ways-to-fix-them)
+   - [📄 Add docstring automatically and enhance your code](#-add-docstring-automatically-and-enhance-your-code)
+   - [🚀 Help you improve code quality](#-help-you-improve-code-quality)
+5. [How to use CodiumAI?](#how-to-use-codiumai)
+   - [TL;DR:](#tldr)
+   - [Generate tests](#generate-tests)
+   - [Review the results](#review-the-results)
+   - [Explore behavior coverage](#explore-behavior-coverage)
+      - [Add tests for uncovered behavior](#add-tests-for-uncovered-behavior)
+      - [Add more behaviors](#add-more-behaviors)
+   - [Modify tests](#modify-tests)
+   - [Run your tests and find possible bugs in your code](#run-your-tests-and-find-possible-bugs-in-your-code)
+   - [Change test suite configurations](#change-test-suite-configurations)
+   - [Save your test suite](#save-your-test-suite)
+   - [CodiumAI Chat - NEW!](#codiumai-chat---new)
+      - [Explain your code](#explain-your-code)
+      - [Enhance your code](#enhance-your-code)
+      - [Generate Docstring](#generate-docstring)
+      - [Get improvement suggestions](#get-improvement-suggestions)
+   - [Report a bug](#report-a-bug)
+6. [How to uninstall](#how-to-uninstall)
+7. [Links](#links)
+8. [Terms of use](#terms-of-use)
+
+
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
 ### Generate tests using CodiumAI:
