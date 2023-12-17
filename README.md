@@ -13,46 +13,45 @@
 <!-- Table of Contents -->
 ## Table of Contents
 1. [SUPPORTS ALL PROGRAMMING LANGUAGES](#supports-all-programming-languages)
-2. [Explore our new CodiumAI Chat](#explore-our-new-codiumai-chat)
-3. [🌟 NEW! Explore two of our upcoming Teams plan features, available for a limited time!](#-new-explore-two-of-our-upcoming-teams-plan-features-available-for-a-limited-time)
-   - [Prepare for Pull Request using our new CodiumAI Chat!](#prepare-for-pull-request-using-our-new-codiumai-chat)
-   - [Extend your current test suites](#extend-your-current-test-suites)
+2. [Explore Our New CodiumAI Chat](#explore-our-new-codiumai-chat)
+3. [🌟 NEW! Explore Two of Our Upcoming Teams Plan Features, Available for a Limited Time!](#-new-explore-two-of-our-upcoming-teams-plan-features-available-for-a-limited-time)
+   - [Prepare for Pull Request Using Our New CodiumAI Chat!](#prepare-for-pull-request-using-our-new-codiumai-chat)
+   - [Extend Your Current Test Suites](#extend-your-current-test-suites)
 4. [Features](#features)
-   - [🤖 Generate unit tests suite automatically](#-generate-unit-tests-suite-automatically)
-   - [🔬 Analyze your code](#-analyze-your-code)
-   - [💡 Suggest code modifications to improve the performance and correctness of your code](#-suggest-code-modifications-to-improve-the-performance-and-correctness-of-your-code)
-   - [💫 Find potential bugs in your code and suggest ways to fix them](#-find-potential-bugs-in-your-code-and-suggest-ways-to-fix-them)
-   - [📄 Add docstring automatically and enhance your code](#-add-docstring-automatically-and-enhance-your-code)
-   - [🚀 Help you improve code quality](#-help-you-improve-code-quality)
-5. [How to use CodiumAI?](#how-to-use-codiumai)
-   - [TL;DR:](#tldr)
-   - [Generate tests](#generate-tests)
-   - [Review the results](#review-the-results)
-   - [Explore behavior coverage](#explore-behavior-coverage)
-      - [Add tests for uncovered behavior](#add-tests-for-uncovered-behavior)
-      - [Add more behaviors](#add-more-behaviors)
-   - [Modify tests](#modify-tests)
-   - [Run your tests and find possible bugs in your code](#run-your-tests-and-find-possible-bugs-in-your-code)
-   - [Change test suite configurations](#change-test-suite-configurations)
-   - [Save your test suite](#save-your-test-suite)
+   - [🤖 Generate Unit Tests Suite Automatically](#-generate-unit-tests-suite-automatically)
+   - [🔬 Analyze Your Code](#-analyze-your-code)
+   - [💡 Suggest Code Modifications to Improve the Performance and Correctness of Your Code](#-suggest-code-modifications-to-improve-the-performance-and-correctness-of-your-code)
+   - [💫 Find Potential Bugs in Your Code and Suggest Ways to Fix Them](#-find-potential-bugs-in-your-code-and-suggest-ways-to-fix-them)
+   - [📄 Add Docstring Automatically and Enhance Your Code](#-add-docstring-automatically-and-enhance-your-code)
+   - [🚀 Help You Improve Code Quality](#-help-you-improve-code-quality)
+5. [How to Use CodiumAI?](#how-to-use-codiumai)
+   - [TL;DR:](#tldr)   - [Generate Tests](#generate-tests)
+   - [Review the Results](#review-the-results)
+   - [Explore Behavior Coverage](#explore-behavior-coverage)
+      - [Add Tests for Uncovered Behavior](#add-tests-for-uncovered-behavior)
+      - [Add More Behaviors](#add-more-behaviors)
+   - [Modify Tests](#modify-tests)
+   - [Run Your Tests and Find Possible Bugs in Your Code](#run-your-tests-and-find-possible-bugs-in-your-code)
+   - [Change Test Suite Configurations](#change-test-suite-configurations)
+   - [Save Your Test Suite](#save-your-test-suite)
    - [CodiumAI Chat - NEW!](#codiumai-chat---new)
-      - [Explain your code](#explain-your-code)
-      - [Enhance your code](#enhance-your-code)
+      - [Explain Your Code](#explain-your-code)
+      - [Enhance Your Code](#enhance-your-code)
       - [Generate Docstring](#generate-docstring)
-      - [Get improvement suggestions](#get-improvement-suggestions)
-   - [Report a bug](#report-a-bug)
-6. [How to uninstall](#how-to-uninstall)
+      - [Get Improvement Suggestions](#get-improvement-suggestions)
+   - [Report a Bug](#report-a-bug)
+6. [How to Uninstall](#how-to-uninstall)
 7. [Links](#links)
-8. [Terms of use](#terms-of-use)
+8. [Terms of Use](#terms-of-use)
 
 
 ## **SUPPORTS ALL PROGRAMMING LANGUAGES**
 
-### Generate tests using CodiumAI:
+### Generate Tests Using CodiumAI:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Tests-Gif.gif)
 
-### You can also trigger CodiumAI by right-clicking and choosing CodiumAI:
+### You Can Also Trigger CodiumAI by Right-Clicking and Choosing CodiumAI:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
 
@@ -60,18 +59,18 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ---
 
-## Explore our new [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
+## Explore Our New [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
 
-## 🌟 NEW! Explore two of our upcoming [Teams plan](https://www.codium.ai/pricing/) features, available for a limited time!
+## 🌟 NEW! Explore Two of Our Upcoming [Teams Plan](https://www.codium.ai/pricing/) Features, Available for a Limited Time!
 
-### Prepare for Pull Request using our new CodiumAI Chat!
+### Prepare for Pull Request Using Our New CodiumAI Chat!
 Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
 Try out our new chat feature today! See how it works:
 
 ![PrePR](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/prepr.gif)
 
 
-### Extend your current test suites 
+### Extend Your Current Test Suites
 Already have a test suite? Let CodiumAI help you with adding missing tests to it! Currently supporting Python, JS and TS.
 See how it works:
 
@@ -81,23 +80,23 @@ See how it works:
 
 ## Features
 
-#### 🤖 Generate unit tests suite automatically
+#### 🤖 Generate Unit Tests Suite Automatically
 
-#### 🔬 Analyze your code
+#### 🔬 Analyze Your Code
 
-#### 💡 Suggest code modifications to improve the performance and correctness of your code
+#### 💡 Suggest Code Modifications to Improve the Performance and Correctness of Your Code
 
-#### 💫 Find potential bugs in your code and suggest ways to fix them
+#### 💫 Find Potential Bugs in Your Code and Suggest Ways to Fix Them
 
-#### 📄 Add docstring automatically and enhance your code
+#### 📄 Add Docstring Automatically and Enhance Your Code
 
-#### 🚀 Help you improve code quality
+#### 🚀 Help You Improve Code Quality
 
 By creating comprehensive test suites, our tool helps you catch and fix bugs early and ensures that your code is reliable and maintainable.
 
 ---
 
-## How to use CodiumAI?
+## How to Use CodiumAI?
 
 #### TL;DR:
 
@@ -110,7 +109,7 @@ By creating comprehensive test suites, our tool helps you catch and fix bugs ear
 ---
 
 
-### Generate tests
+### Generate Tests
 
 Generate tests for a function, a class, or a method using the `Test this class/function/method` button above a function/class/method name:
 
@@ -122,15 +121,15 @@ Generate tests for code snippets by selecting the code you want to test, right-c
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-languages-vscode.gif)
 
-##### Watch tutorial -> https://youtu.be/BxFuKFX_KSA
+##### Watch Tutorial -> https://youtu.be/BxFuKFX_KSA
 
-#### Review the results
+#### Review the Results
 
 CodiumAI tab will present the test results - review the test names, objectives, types, and the test code:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
 
-### Explore behavior coverage
+### Explore Behavior Coverage
 
 CodiumAI generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
 The number of covered behaviors calculates the coverage percentages.
@@ -142,22 +141,22 @@ For each behavior, explore its sub-behaviors for more test variations:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SubBehaviors.png)
 
-#### Add tests for uncovered behavior
+#### Add Tests for Uncovered Behavior
 
 For behaviors that are not covered by tests, you can click on the `Generate test` button next to it, and CodiumAI will generate a test
 for this behavior.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestForBehavior.png)
 
-#### Add more behaviors
+#### Add More Behaviors
 
 Missing a behavior? Simply add new behaviors and generate tests for them:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddBehavior.png)
 
-##### Watch tutorial -> https://youtu.be/xHwIvCjvQDI
+##### Watch Tutorial -> https://youtu.be/xHwIvCjvQDI
 
-#### Modify tests
+#### Modify Tests
 
 Want to modify a single test code? Simply type the change you want inside the `Suggest changes..` field, and TestGPT will modify the code based on your request:
 
@@ -183,7 +182,7 @@ Want to remove a test from your test suite? Click on the `delete` button on each
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
 
-#### Run your tests and find possible bugs in your code
+#### Run Your Tests and Find Possible Bugs in Your Code
 
 You can run the generated tests directly from the CodiumAI panel. Simply click `Run All Tests` button to run all the test, or `Run` button on each single test:
 
@@ -209,9 +208,9 @@ Review the suggested fix, and if you approve it, click `Apply to my Code` button
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ApplyFix.png)
 
-##### Watch tutorial -> https://youtu.be/l_ITy2_KDZ0
+##### Watch Tutorial -> https://youtu.be/l_ITy2_KDZ0
 
-#### Change test suite configurations
+#### Change Test Suite Configurations
 
 Improve and personalize your test suite by giving general instructions, providing examples of tests and selecting your preferred testing framework in the `Configuration` section:
 
@@ -219,7 +218,7 @@ Improve and personalize your test suite by giving general instructions, providin
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
 
-#### Save your test suite
+#### Save Your Test Suite
 
 When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or click on `Open as a file` and we will create a test file for you:
 
@@ -231,13 +230,13 @@ Use our chat commands to improve your code! See how it works:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/chat-gif.gif)
 
-#### Explain your code
+#### Explain Your Code
 
 Get a detailed code explanation on every component or code snippet you want, using CodiumAI chat command /explain:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/explain.png)
 
-#### Enhance your code
+#### Enhance Your Code
 
 Choose the component you want to enhance, or select the relevant lines, and choose /enhance command in our CodiumAI chat. You can add additional instructions as a free text.
 
@@ -249,7 +248,7 @@ Choose the component you want to add docstring to, or select the relevant lines,
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/docstring.png)
 
-#### Get improvement suggestions
+#### Get Improvement Suggestions
 
 Get suggestions to improve your code correctness and robustness, by choosing /improve command in CodiumAI chat. You can add additional instructions as a free text.
 
@@ -258,7 +257,7 @@ Get suggestions to improve your code correctness and robustness, by choosing /im
 
 
 
-### Report a bug
+### Report a Bug
 
 Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
 
@@ -275,7 +274,7 @@ Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](http
 
 ---
 
-## How to uninstall
+## How to Uninstall
 
 1. Select "CodiumAI" button in the bottom status bar.
 2. Hover over the authentication notification, select the settings icon and "Manage Extension" option from the dropdown.
@@ -291,7 +290,7 @@ Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](http
 - Troubleshooting: https://www.codium.ai/blog/technical-faq-and-troubleshooting/
 - Support: support@codium.ai
 
-## Terms of use
+## Terms of Use
 
 - Terms of use: https://www.codium.ai/terms
 - Privacy policy: https://www.codium.ai/privacy-policy
