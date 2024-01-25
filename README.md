@@ -1,22 +1,24 @@
 <div align="center">
 
-# CodiumAI - Meaningful tests for busy devs  
+# Codiumate
+### Code, test and review with confidence - your AI mate by CodiumAI
+
 [![Twitter URL](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CodiumAI)    [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kG35uSHDBc)    [![Twitter URL](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@codiumai)
 ---
 
-**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. It supports all languages!
+Elevate your coding experience with automated test generation, intelligent code assistance, and efficient PR reviews, all smoothly integrated into your development workflow. Boost your productivity, code with confidence, and optimize your development process!
+
+**It supports all languages!**
 
 ---
 
 </div>
 
-## **SUPPORTS ALL PROGRAMMING LANGUAGES**
-
-### Generate tests using CodiumAI:
+### Generate tests using Codiumate:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Tests-Gif.gif)
 
-### You can also trigger CodiumAI by right-clicking and choosing CodiumAI:
+### You can also trigger Codiumate by right-clicking and choosing CodiumAI:
 
 ![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
 
@@ -26,17 +28,15 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ## Explore our new [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
 
-## 🌟 NEW! Explore two of our upcoming [Teams plan](https://www.codium.ai/pricing/) features, available for a limited time!
-
-### Prepare for Pull Request using our new CodiumAI Chat!
-Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and branch-diff improvement suggestions before opening your pull request.
-Try out our new chat feature today! See how it works:
+### Prepare for Pull Request using our new CodiumAI Chat! (Pro💎)
+Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and improvement suggestions for youe selected diff, before opening your pull request.
+See how it works:
 
 ![PrePR](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/prepr.gif)
 
 
-### Extend your current test suites 
-Already have a test suite? Let CodiumAI help you with adding missing tests to it! Currently supporting Python, JS and TS.
+### Extend your current test suites (Pro💎)
+Already have a test suite? Let Codiumate help you with adding missing tests to it! Currently supporting Python, JS and TS.
 See how it works:
 
 ![Extend Test Suite](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/extend-test-suite.gif)
@@ -55,13 +55,15 @@ See how it works:
 
 #### 📄 Add docstring automatically and enhance your code
 
+#### 👀 Prepare better for your PR
+
 #### 🚀 Help you improve code quality
 
 By creating comprehensive test suites, our tool helps you catch and fix bugs early and ensures that your code is reliable and maintainable.
 
 ---
 
-## How to use CodiumAI?
+## How to use Codiumate?
 
 #### TL;DR:
 
@@ -96,7 +98,7 @@ CodiumAI tab will present the test results - review the test names, objectives, 
 
 ### Explore behavior coverage
 
-CodiumAI generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
+Codiumate generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
 The number of covered behaviors calculates the coverage percentages.
 You can refresh the coverage when you modify your test suite (add, remove, or modify tests):
 
@@ -108,7 +110,7 @@ For each behavior, explore its sub-behaviors for more test variations:
 
 #### Add tests for uncovered behavior
 
-For behaviors that are not covered by tests, you can click on the `Generate test` button next to it, and CodiumAI will generate a test
+For behaviors that are not covered by tests, you can click on the `Generate test` button next to it, and Codiumate will generate a test
 for this behavior.
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestForBehavior.png)
@@ -224,7 +226,7 @@ Get suggestions to improve your code correctness and robustness, by choosing /im
 
 ### Report a bug
 
-Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
+Had a bug with Codiumate? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
 
 ![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
 
@@ -243,7 +245,7 @@ Had a bug with CodiumAI? Report us via email (support@codium.ai), [Discord](http
 
 1. Select "CodiumAI" button in the bottom status bar.
 2. Hover over the authentication notification, select the settings icon and "Manage Extension" option from the dropdown.
-3. CodiumAI Extension will open in a new tab. Select Uninstall and Reload VSCode.
+3. Codiumate Extension will open in a new tab. Select Uninstall and Reload VSCode.
 
 ## Links
 
