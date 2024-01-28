@@ -28,7 +28,12 @@ _Beta Version - Supported in VSCode version 1.70.0 and above_
 
 ## Explore our new [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
 
-### Prepare for Pull Request using our new CodiumAI Chat! (Pro💎)
+### Improve, understand and test your code with Code Assistant Chat
+Code assistant will help you to `/improve` your code, add `/docstring`, wrtie `/test`, `/explain` your code and more. Check it out!
+![Code assistant](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/commands-gif.gif)
+
+
+### Prepare for Pull Request with PR Assistant Chat (Pro💎)
 Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and improvement suggestions for youe selected diff, before opening your pull request.
 See how it works:
 
