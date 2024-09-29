@@ -1,269 +1,349 @@
-<div align="center">
+# qodo Gen
 
-# Codiumate
-### Code, test and review with confidence - your AI mate by CodiumAI
+### Code, test and review with confidence
 
-[![Twitter URL](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CodiumAI)    [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/codiumai-1057273017547378788)    [![Twitter URL](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@codiumai)
----
+[qodo Gen](https://www.qodo.ai/products/ide-plugin/) is your AI-powered coding assistant and mentor. qodo Gen helps you understand your code, test it and review it with your team.
 
-Elevate your coding experience with iterative test generation and intelligent code assistant, and efficient PR reviews, all smoothly integrated into your development workflow. Boost your productivity, code with confidence, and optimize your development process!
+**[Sign in to start using qodo Gen.](https://app.qodo.ai/signin)**
 
-**It supports all languages!**
+**Supports all programming languages!**
 
----
-
-</div>
-
-### Generate tests using Codiumate:
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Tests-Gif.gif)
-
-### You can also trigger Codiumate by right-clicking and choosing CodiumAI:
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-lang-vscode-gif.gif)
-
-_Beta Version - Supported in VSCode version 1.70.0 and above_
+## [![GitHub](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Codium-ai) [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kG35uSHDBc) [![X URL](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/QodoAI)
 
 ---
 
-## Explore our new [CodiumAI Chat](https://github.com/Codium-ai/codiumai-vscode-release#codiumai-chat---new)! 
+## Table of Contents
 
-### Improve, understand and test your code with Code Assistant Chat
-Code assistant will help you to `/improve` your code, add `/docstring`, wrtie `/test`, `/explain` your code and more. Check it out!
-![Code assistant](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/commands-gif.gif)
-
-
-### Prepare for Pull Request with PR Assistant Chat (Pro💎)
-Easily get PR descriptions, automated reviews for your PR, automatic commit messages, and improvement suggestions for youe selected diff, before opening your pull request.
-See how it works:
-
-![PrePR](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/prepr.gif)
-
-
-### Extend your current test suites (Pro💎)
-Already have a test suite? Let Codiumate help you with adding missing tests to it! Currently supporting Python, JS and TS.
-See how it works:
-
-![Extend Test Suite](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/extend-test-suite.gif)
+1. [What can qodo Gen do?](#What-can-qodo-Gen-do?)
+2. [Using qodo Gen Shortcuts](#Using-qodo-Gen-Shortcuts)
+3. [qodo Gen Chat](#qodo-Gen-Chat)
+4. [Code Completion](#Code-Completion)
+5. [Tests Generation](#Tests-Generation)
+6. [Learn More](#Learn-More)
+7. [Support and Community](#Support-and-Community)
+8. [Data Sharing](#Data-Sharing)
 
 ---
 
-## Features
+## What can qodo Gen do?
 
-#### 🤖 Generate unit tests suite automatically
+qodo Gen uses advanced AI models to deeply understand your code structure, logic, and context to help you write better code.
 
-#### 🔬 Analyze your code
+With qodo Gen, you can:
 
-#### 💡 Suggest code modifications to improve the performance and correctness of your code
+- Understand your code better.
+- Improve code quality.
+- Uncover potential bugs.
+- Ease your PR process.
+- Generate tests and Docstrings.
 
-#### 💫 Find potential bugs in your code and suggest ways to fix them
+And much more.
 
-#### 📄 Add docstring automatically and enhance your code
+Start using qodo Gen by clicking the qodo Gen logo in your Extensions bar.
 
-#### 👀 Prepare better for your PR
-
-#### 🚀 Help you improve code quality
-
-By creating comprehensive test suites, our tool helps you catch and fix bugs early and ensures that your code is reliable and maintainable.
-
----
-
-## How to use Codiumate?
-
-#### TL;DR:
-
-- Click on the `CodiumAI` button above a function/class/method name
-- Use CodiumAI chat to get code explanation, enhance your code, add docstring and get improvement suggestions to your code.
-- Use CodiumAI's keybinding shortcut - mac: `cmd+ctrl+c` | Linux: `alt+shift+c` | windows: `ctrl+win+z`
-- Right-click on your code -> Choose `CodiumAI - ` and choose the desired command
-- Or just use the command palette and select `CodiumAI - Generate Tests`
+![qodo Gen Demo](https://www.qodo.ai/images/qodo-gen-gifs/Demo.gif)
 
 ---
 
+### Using qodo Gen Shortcuts
 
-### Generate tests
+Use qodo Gen's keybinding shortcuts:
 
-Generate tests for a function, a class, or a method using the `Test this class/function/method` button above a function/class/method name:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTests.png)
-
-Generate tests for code snippets by selecting the code you want to test, right-clicking on it, choosing the `CodiumAI - ` and selecting the desired command:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/GenerateTestsForSnippet.png)
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/all-languages-vscode.gif)
-
-##### Watch tutorial -> https://youtu.be/BxFuKFX_KSA
-
-#### Review the results
-
-CodiumAI tab will present the test results - review the test names, objectives, types, and the test code:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewResults.png)
-
-### Explore behavior coverage
-
-Codiumate generates a behavior list of your code and marks each behavior as covered or not covered based on the generated test.
-The number of covered behaviors calculates the coverage percentages.
-You can refresh the coverage when you modify your test suite (add, remove, or modify tests):
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/BehaviorCoverage.png)
-
-For each behavior, explore its sub-behaviors for more test variations:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SubBehaviors.png)
-
-#### Add tests for uncovered behavior
-
-For behaviors that are not covered by tests, you can click on the `Generate test` button next to it, and Codiumate will generate a test
-for this behavior.
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestForBehavior.png)
-
-#### Add more behaviors
-
-Missing a behavior? Simply add new behaviors and generate tests for them:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddBehavior.png)
-
-##### Watch tutorial -> https://youtu.be/xHwIvCjvQDI
-
-#### Modify tests
-
-Want to modify a single test code? Simply type the change you want inside the `Suggest changes..` field, and TestGPT will modify the code based on your request:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SuggestChanges.png)
-
-You can also click the `Regenerate` button and get an alternative code for this test:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RegenerateSingleTest.png)
-
-You can manually edit the test within the panel:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ManualEditTest.png)
-
-Want more tests? Click on `Give me more tests` at the bottom of the test suite:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RequestMoreTests.png)
-
-You can focus on code changes from your uncommitted changes, read the code explanation of your changes and generate tests for them:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/CodeChanges.png)
-
-Want to remove a test from your test suite? Click on the `delete` button on each test:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/DeleteSingleTest.png)
-
-#### Run your tests and find possible bugs in your code
-
-You can run the generated tests directly from the CodiumAI panel. Simply click `Run All Tests` button to run all the test, or `Run` button on each single test:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/RunYourTests.png)
-
-The test failed? See the log by clicking the `failed` button, and easily fix the test by clickeing `Fix Test` button:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixTest.png)
-
-When TestGPT identifies possible bug in your code, it alerts you and gives you relevant information on the bug and possible fix, click on `Possible Code Bug` to see the data:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/PossibleCodeBug.png)
-
-Click `Fix Code` to get a possible fix to your bug:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/FixCode.png)
-
-After analyzing, click `Review Fix` button to see the code diff:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ReviewFix.png)
-
-Review the suggested fix, and if you approve it, click `Apply to my Code` button merge it to your code:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ApplyFix.png)
-
-##### Watch tutorial -> https://youtu.be/l_ITy2_KDZ0
-
-#### Change test suite configurations
-
-Improve and personalize your test suite by giving general instructions, providing examples of tests and selecting your preferred testing framework in the `Configuration` section:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/AddTestExample.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ChangeGeneralConfiguration.png)
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/ModifyFramework.png)
-
-#### Save your test suite
-
-When you're happy with your generated test suite, you can click on `Copy tests` and copy the test suite code, or click on `Open as a file` and we will create a test file for you:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/OpenCopy.png)
-
-### CodiumAI Chat - NEW!
-
-Use our chat commands to improve your code! See how it works:
-
-![How it works](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/chat-gif.gif)
-
-#### Explain your code
-
-Get a detailed code explanation on every component or code snippet you want, using CodiumAI chat command /explain:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/explain.png)
-
-#### Enhance your code
-
-Choose the component you want to enhance, or select the relevant lines, and choose /enhance command in our CodiumAI chat. You can add additional instructions as a free text.
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/enhance.png)
-
-#### Generate Docstring
-
-Choose the component you want to add docstring to, or select the relevant lines, and choose /docstring command in our CodiumAI chat. You can add additional instructions as a free text.
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/docstring.png)
-
-#### Get improvement suggestions
-
-Get suggestions to improve your code correctness and robustness, by choosing /improve command in CodiumAI chat. You can add additional instructions as a free text.
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/improve.png)
-
-
-
-
-### Report a bug
-
-Had a bug with Codiumate? Report us via email (support@codium.ai), [Discord](https://discord.gg/kG35uSHDBc) or open a [GitHub issue](https://github.com/Codium-ai/codiumai-vscode-release/issues), and provide us with your request ID. You can copy it from the CodiumAI panel:
-
-![](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/SendRequstID.png)
-
+- Linux: `alt+shift+c`
+- Mac: `cmd+ctrl+c`
+- Windows: `ctrl+win+z`
 
 ---
 
-> Tip 1: If you can't see the `Generate Tests` button you might have to set `"editor.codeLens": true,` in your VSCode configuration file.
-> <br>
+---
 
-> Tip 2: You can show and hide CodiumAI panel in the extension settings or from the command palette.
-> <br>
+## qodo Gen Chat
+
+qodo Gen Chat offers real-time coding assistance within your development environment. Use qodo Gen Chat for:
+
+- **Improving your code:**  
+   From making it more secure to beautifying and cleaning it.
+
+- **Understanding your code better:**  
+  Simplify onboarding for new or junior developers by providing in-depth insights into your codebase.
+
+- **Asking free-style questions about your code:**  
+  Get instant answers to any code-related question using AI-powered free-form queries.
+
+- **Generating docstrings:**  
+  Improve code maintainability by generating docstrings.
+
+- **Generating unit tests and test suits:**  
+  Secure and eliminate bugs in your code by adding extensive testing.
 
 ---
 
-## How to uninstall
+### Focus
 
-1. Select "CodiumAI" button in the bottom status bar.
-2. Hover over the authentication notification, select the settings icon and "Manage Extension" option from the dropdown.
-3. Codiumate Extension will open in a new tab. Select Uninstall and Reload VSCode.
+**Focus** is the part of your code that your conversation in qodo Gen Chat centers around.  
+It could be an entire file or just a few lines of code.
 
-## Links
+![Choosing Focus](https://www.qodo.ai/images/qodo-gen-gifs/ChoosingFocus.gif)
 
-[![Join our Discord community](https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Joincommunity.png)](https://discord.gg/kG35uSHDBc)
+#### Guidelines on choosing Focus
 
-- Discord community: https://discord.gg/kG35uSHDBc
-- CodiumAI site: https://codium.ai
-- Blog: https://www.codium.ai/blog/
-- Troubleshooting: https://www.codium.ai/blog/technical-faq-and-troubleshooting/
-- Support: support@codium.ai
+Select the focus that best fits your current coding task or question. Consider the scope of your query and what it relates to.
 
-## Terms of use
+#### Choose the best Context
 
-- Terms of use: https://www.codium.ai/terms
-- Privacy policy: https://www.codium.ai/privacy-policy
-- Please notice - similar to other popular generative-AI tools (such as copilot), we also transmit code snippets to our servers.
+To get the best, most relevant results to your Chat query, make sure to choose the most relevant Context. **This will help qodo Gen Chat's AI models tailor the best response for you.**  
+Learn more about Context in this document and in our [documentation portal](https://qodo-gen-docs.qodo.ai/chat/add-context/).
+
+#### Switch Focus as needed
+
+You can switch the focus at any time based on the evolving needs of your development work. qodo Gen seamlessly adapts to the selected focus and updates the context it's using.
+
+#### Focus types
+
+To choose Focus, click `Add focus` on the bottom left, or type `@` in the chatbox.  
+You can then select one of two Focus types:
+
+1. [**Current File**](https://qodo-gen-docs.qodo.ai/chat/focus/#selecting-a-focus:~:text=%C2%B6-,Current%20File,-:%20Focuses%20on%20the): Focuses on the current file you're working on.
+
+   When choosing Current File Focus, you have to choose a **Secondary Focus** option. The Secondary Focus refines the context for qodo Gen Chat's responses.
+
+   There are two options for Secondary Focus:
+
+   - **Selected Lines:** Manually select lines in your code to set as the focus for your request.
+
+     ![Selected Lines Focus](https://www.qodo.ai/images/qodo-gen-gifs/SelectedLinesFocus.gif)
+
+   - **Component:** Select specific code components from the bottom right part of the chatbox. The components consist of functions, methods and classes automatically detected from the current file.
+
+2. [**Git Diff**](https://qodo-gen-docs.qodo.ai/chat/focus/git-diff/): Include Git changes across your entire project, enabling you to manage and review code changes effectively.
+
+   To choose Git Diff click on `@` and select `Git Diff`.  
+   You can then choose to focus on either `Local Changes`, `Staged Changes` or `Committed Changes`.
+
+   Git-Diff supports commands for managing commits, documentation, code quality, and more.
+
+---
+
+### Context
+
+Think of Context like the brain of qodo Gen Chat. The Context is what qodo Gen's AI models know about your code and what they use to give the best, most accurate response.
+
+**Adding more context will give more accurate and relevant responses**, so choosing context is an important part of using qodo Gen Chat to your advantage.
+
+#### Adding Context
+
+There are multiple ways to add Context to qodo Gen Chat:
+
+1. **Code Snippet:** Select a few lines of code from your project to add as context.
+
+   **Usage:** Select a code snippet, right-click and choose `Add to qodo Gen as context`.
+
+   ![Snippet As Context](https://www.qodo.ai/images/qodo-gen-gifs/SnippetAsContext.gif)
+
+   **Shortcuts:**
+
+   - **VSCode:**
+
+     - Mac: `Cmd+Shift+E`
+     - Windows: `Ctrl+Shift+E`
+
+   - **JetBrains:**
+     - Mac: `Cmd+Option+Comma`
+     - Windows: `Ctrl+Alt+Comma`
+
+2. **Files:** Select any file from your project to add as context.
+
+   **Usage:** Click on `@` or type `@` in the chatbox, and select `Add a file or a folder`.  
+   Alternatively, right-click any file from your project and choose `Add to qodo Gen as context`.
+
+3. **Folder:** Select any folder from your project to add as context.
+
+   **Usage:** Click on `@` or type `@` in the chatbox, and select `Add a file or a folder`.  
+   Alternatively, right-click any folder from your project and choose `Add to qodo Gen as context`.
+
+4. **Entire Project:** Select your entire project to add as context.
+
+   **Usage:** Click on `@` or type `@` in the chatbox, and select `Add a file or a folder`. Under the searchbar, choose `Full project`.
+
+5. **Image:** Select any image to add as context.  
+   For example, add an image of a required design and qodo Gen Chat will help you create it.
+
+   **Usage:** Click on `@` or type `@` in the chatbox, and select `Upload an image`.
+
+   [Learn more about adding images to the chat.](https://qodo-gen-docs.qodo.ai/chat/images)
+
+---
+
+### Commands
+
+Commands are what qodo Gen Chat is all about. Call a command to unlock all of qodo Gen Chat's capabilities.
+
+**To call commands either:**
+
+- **Type them directly** in the chatbox with a leading slash `/`.
+- **Manually select lines from your code**, right-click and choose `qodo Gen`, then pick a command from the list.
+
+###
+
+![Calling Commands](https://www.qodo.ai/images/qodo-gen-gifs/Commands.gif)
+
+#### Commands List
+
+- **`/ask`**: Ask any free-text question about your code.
+
+- **`/explain`**: Understand how the selected code works.
+
+- **`/improve`**: Get suggestions to improve your code.
+
+- **`/enhance`**: Beautify and clean your code.
+
+- **`/docstring`**: Automatically generate docstrings.
+
+- **`/find-on-github`**: Find relevant open-source code on GitHub.
+
+- **`/quick-test`**: Automatically generate unit tests.
+
+- **`/test-suite`**: Get step-by-step examples to create a test suite.
+
+[Find out more about qodo Gen Chat Commands on our documentation portal.](https://qodo-gen-docs.qodo.ai/chat/commands/)
+
+---
+
+### Continue Chat
+
+After receiving your response, click `Continue this chat` to keep the conversation going. Your current chat will be used as context for the rest of the conversation.
+
+---
+
+### Learn More
+
+You can find out more about qodo Gen Chat in our [documentation portal](https://qodo-gen-docs.qodo.ai/chat).
+
+---
+
+---
+
+## Code Completion
+
+qodo Gen Code Completion is a powerful tool designed to accelerate your coding process, reducing the need for repetitive tasks such as copying and pasting code snippets from the internet.  
+By enabling Code Completion, qodo Gen learns from your codebase and provides real-time suggestions that seamlessly integrate with your writing flow.
+
+![Code Completion](https://www.qodo.ai/images/qodo-gen-gifs/CodeCompletion.gif)
+
+---
+
+### Use Code Completion
+
+Code Completion is a Pro feature, exclusively available for Teams and Enterprise users. [Visit Qodo's website to learn more.](https://www.qodo.ai/glossary/ai-code-completion/)
+
+As you type, qodo Gen analyzes your code in real-time to grasp your intention. It then presents code completions in a grayed-out format directly in your editor. These suggestions aim to complete your current line of code or offer snippets that fit the context of your work. To accept a suggestion, simply press the Tab key, and the completion will be inserted into your code.
+
+---
+
+### Customization
+
+Configure qodo Gen Extension settings to customize Code Completion to suit your specific coding style and needs.
+
+Provide general instructions to guide qodo Gen in generating code completions. This customization ensures that the suggestions are not only accurate but also align with your preferences and project requirements.
+
+[Learn how to configure your Code Completion settings.](https://qodo-gen-docs.qodo.ai/installation/extension-settings/)
+
+---
+
+### Learn More
+
+You can find out more about Code Completion in our [documentation portal](https://qodo-gen-docs.qodo.ai/code-completion).
+
+---
+
+---
+
+## Tests Generation
+
+qodo Gen leverages advanced AI technology to generate comprehensive tests for **any programming language**.
+
+Test generation boosts productivity, enhances code quality and simplifies the development process, helping you deliver reliable, high-performance software with ease.
+
+![TestGeneration](https://www.qodo.ai/images/qodo-gen-gifs/TestGeneration.gif)
+
+---
+
+### Using Test Generation
+
+- **For a function, class or method:** Click the `Test this function` button above the function declaration.
+- **For code snippets:** Select the code you want to test. Right-click on your selection and choose `qodo Gen`. From the dropdown menu choose `Generate Tests`.
+
+The qodo Gen Testing tab will open.
+
+---
+
+### Test Suite
+
+#### Improve Tests
+
+The more context, the better the tests generated by qodo Gen.
+<br>Provide test examples to qodo Gen in the test box and improve your generated tests.
+
+#### Explore Behavior Coverage
+
+The Behaviors Coverage section categorizes function behaviors into three main types, each representing a different aspect of how your code operates:
+
+- **Happy Path:** The ideal and expected use cases of your code, where everything operates as intended without any errors or exceptions.
+- **Edge Case:** The boundaries of your code's logic, handling unusual or extreme inputs or scenarios that might not be immediately obvious.
+- **Other:** Less common use cases not fitting into the first two categories.
+
+Click on `Generate test` next to any behavior to generate a test for a specific behavior type.
+
+#### Tests
+
+In this section you can find tests generated by qodo Gen and run them.  
+Alternatively, you can `Run and auto-fix`: if a test fails, qodo Gen will attempt to fix it automatically and re-run it.
+
+---
+
+### Context
+
+qodo Gen uses your codebase as **Context** to generate the most relevant tests. You can manage this Context in the `Context` tab.
+
+---
+
+### Configuration
+
+You can improve and personalize your test suite in the `Configuration` section.
+
+- **Provide test examples and improve your generated tests:** The more context, the better the outcome. qodo Gen uses examples to improve tests generation.
+- **General instructions:** Customize your test generation by choosing your preferred testing framework, number of tests required and giving hints.
+- **Configuration file management:** Ensure consistency across your project or team and save settings to a TOML file. [Learn more about the configuration file.](https://qodo-gen-docs.qodo.ai/tests/configuration/#saving-configuration-to-a-file)
+
+---
+
+### Learn More
+
+Find out more about test generation in our [documentation portal](https://qodo-gen-docs.qodo.ai/tests).
+
+---
+
+---
+
+## Uninstall qodo Gen
+
+1. Click on the Qodo button in the bottom status bar.
+2. Hover over the authentication notification, select the settings icon and choose the `Manage Extension` option.
+3. qodo Gen Extension will open in a new tab. Select Uninstall and reload VSCode.
+
+## Learn More
+
+Find out more about qodo Gen and other Qodo products in our [documentation portal](https://qodo-gen-docs.qodo.ai).
+
+## Support and Community
+
+**Need help?** Visit our [FAQ and troubleshooting guide](https://www.qodo.ai/blog/technical-faq-and-troubleshooting/).
+
+**[Join our Discord community!](https://discord.gg/kG35uSHDBc)**
+
+## Data Sharing
+
+Similar to other popular generative-AI tools, we transmit code snippets to our servers. You can learn more in our [terms of use](https://www.qodo.ai/terms) and [privacy policy](https://www.qodo.ai/privacy-policy).
+
+You can opt out of sharing data with Qodo.
+<br>Go to the extension's settings and check the box `Opt out of sharing my data with Qodo`.
