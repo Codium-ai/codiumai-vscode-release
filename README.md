@@ -1,14 +1,11 @@
-# Qodo Gen
+# Qodo: Local Code Review
 
-### Code, test and review with confidence
+### Shift code reviews left and commit with confidence.
 
-[Qodo Gen](<(https://www.qodo.ai/products/ide-plugin/)>) (formerly Codiumate) is your AI-powered coding assistant and mentor. Qodo Gen helps you write, understand, test and review code with your team.
-
-With tools for code generation, test workflows, and AI chat, Qodo Gen helps developers write quality code that works as intended, with fewer bugs.
-
-**[Sign in to start using Qodo Gen.](https://app.qodo.ai/signin)**
-
-**Supports all programming languages!**
+Qodo brings review intelligence directly into your development environment with Local Code Review in the IDE.
+- Detect bugs, issues, and standard violations as you code
+- Resolve issues in 1-click
+- Generate tests for code changes
 
 ## [![GitHub](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Codium-ai) [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kG35uSHDBc) [![X URL](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/QodoAI)
 
@@ -16,138 +13,92 @@ With tools for code generation, test workflows, and AI chat, Qodo Gen helps deve
 
 ## Table of Contents
 
-1. [What can Qodo Gen do?](#What-can-qodo-Gen-do?)
-2. [Qodo Chat](#Qodo-Chat)
-3. [Code Generation](#Code-Generation)
-4. [Tests Generation](#Tests-Generation)
-5. [Learn More](#Learn-More)
-6. [Support and Community](#Support-and-Community)
-7. [Data Sharing](#Data-Sharing)
+- [What can Qodo do?](#what-can-qodo-do)
+- [High precision, high recall code reviews](#high-precision-high-recall-code-reviews)
+- [Agents: Modes and Workflows](#agents-modes-and-workflows)
+- [Learn More](#learn-more)
+- [Support and Community](#support-and-community)
+- [Data Sharing](#data-sharing)
 
 ---
 
-## What can Qodo Gen do?
+## What can Qodo do?
 
-Qodo Gen uses advanced AI models to deeply understand your code structure, logic, and context to help you write better code.
+Qodo’s agents execute review workflows with shared multi-repo context and organization-specific rules to deliver precise, high-signal feedback and resolution.
 
-With Qodo Gen, you can:
-
-- Understand your code better.
-- Improve code quality.
-- Uncover potential bugs.
-- Ease your PR process.
-- Generate tests and Docstrings.
-
-And much more.
-
-**Supported models:** OpenAI o1-preview, o1-mini and GPT Family, Claude Sonnet 3.5, Gemini 1.5 Pro, Qodo proprietary models.
-
-![Qodo Gen Demo](https://www.qodo.ai/images/qodo-gen-gifs/Demo.gif)
+With Qodo's AI-powered code reviews, you get instant feedback as you write:
+- **Code changes analysis and explanation**
+- **Context-aware code suggestions**
+- **1-click issue resolution**
+- **Test generation for code changes**
 
 ---
 
-## Qodo Chat
+## High precision, high recall code reviews
 
-[Qodo Chat](https://qodo-gen-docs.qodo.ai/chat) offers real-time coding assistance within your development environment. Use Qodo Chat to:
-
-- **Ask free-style questions about your code:**  
-  Get instant answers to any question using AI-powered free-form queries.
-
-- **Improve your code:**  
-   From making it more secure to beautifying and cleaning it.
-
-- **Understand your code better:**  
-  Simplify onboarding for new or junior developers by providing in-depth insights into your codebase.
-
-- **Generate unit tests and test suits:**  
-  Secure and eliminate bugs in your code by adding extensive testing.
+Qodo delivers actionable, prioritized code suggestions to help developers push cleaner code, reduce review fatigue and improve overall code quality:
+- Multi-repo Codebase Context: Review code against the context of your full codebase to catch breaking changes, dependency conflicts, architecture-level issues and other hidden risks
+- Rules Customization & Enforcement: Embed your governance and security standards directly into every code review to ensure consistent, automated enforcement at scale.
 
 ---
 
-### Learn More
+## Agents: Modes and Workflows
 
-You can find out more about Qodo Chat in our [documentation portal](https://qodo-gen-docs.qodo.ai/chat).
+Qodo Gen introduces **Modes** and **Workflows**, powerful ways to customize how agents assist you.
 
----
+### **Modes**
 
----
+Modes are **persona-driven AI agents** for ongoing, context-aware conversations.  
+They maintain state and can use MCP tools to help with multi-step tasks like code review, architecture planning, or iterative development.
 
-## Code Generation
+**Examples of Modes:**
 
-Qodo Gen Code Completion is a powerful tool designed to accelerate your coding process, reducing the need for repetitive tasks such as copying and pasting code snippets from the internet.  
-By enabling Code Completion, Qodo Gen learns from your codebase and provides real-time suggestions that seamlessly integrate with your writing flow.
+- **Ask Mode** – Quick answers with minimal tool usage.
+- **Code Mode** – Full-featured coding assistant with access to all tools.
+- **Plan Mode** – High-level reasoning for design decisions and system planning.
 
-![Code Completion](https://www.qodo.ai/images/qodo-gen-gifs/CodeCompletion.gif)
-
----
-
-### Use Code Generation
-
-Code Completion is a Pro feature, exclusively available for Teams and Enterprise users. [Visit Qodo's website to learn more.](https://www.qodo.ai/glossary/ai-code-completion/)
-
-As you type, Qodo Gen analyzes your code in real-time to grasp your intention. It then presents code completions and suggestions aimed to complete your current line of code or offer snippets that fit the context of your work.
+[Use Modes when you need a **continuous AI partner** while coding.](https://docs.qodo.ai/qodo-documentation/qodo-gen/agent/modes)
 
 ---
 
-### Customization
+### **Workflows**
 
-You can configure Qodo Gen Extension settings to customize Code Completion to suit your specific coding style and needs.
+Workflows are **single-task AI agents** that execute a **defined process from start to finish**.  
+They are perfect for repeatable or automated tasks like:
 
-[Learn how to configure your Code Completion settings.](https://qodo-gen-docs.qodo.ai/installation/extension-settings/)
+- Generating documentation
+- Running and fixing test suites
+- Performing code maintenance tasks
 
----
-
-### Learn More
-
-You can find out more about Code Generation and Completion in our [documentation portal](https://qodo-gen-docs.qodo.ai/code-completion).
-
----
+[Workflows execute, deliver results, and **end automatically**.](https://docs.qodo.ai/qodo-documentation/qodo-gen/agent/workflows)
 
 ---
 
-## Tests Generation
+### **Sharing and Reuse**
 
-Qodo Gen leverages advanced AI technology to generate comprehensive tests for **any programming language**.
+Both **Modes and Workflows** can be:
 
-Whether you need to test a specific class, a function, or a small section of code, Qodo Gen offers the functionality to generate meaningful test cases. Refine and customize test suites by adding context, generating example tests, and auto-fixing tests.
+- **Shared** with your team as a `.toml` file
+- **Uploaded** into Qodo Gen to instantly reuse someone else’s setup
 
-![TestGeneration](https://www.qodo.ai/images/qodo-gen-gifs/TestGeneration.gif)
-
-Use Test Generation to:
-
-- Increase test coverage
-- Unfold bugs
-- Generate tests for different behaviors, from happy paths to edge cases.
+This makes **collaboration and standardization** effortless across projects.
 
 ---
-
-### Learn More
-
-Find out more about test generation in our [documentation portal](https://qodo-gen-docs.qodo.ai/tests).
-
----
-
----
-
-## Uninstall Qodo Gen
-
-1. Click on the Qodo button in the bottom status bar.
-2. Hover over the authentication notification, select the settings icon and choose the `Manage Extension` option.
-3. Qodo Gen Extension will open in a new tab. Select Uninstall and reload VSCode.
 
 ## Learn More
 
-Find out more about Qodo Gen and other Qodo products in our [documentation portal](https://qodo-gen-docs.qodo.ai).
+Find out more about Qodo Local Code Review and other Qodo features in our [documentation portal](https://docs.qodo.ai/qodo-documentation/qodo-gen/chat/local-review).
+
+---
 
 ## Support and Community
 
-**Need help?** Visit our [FAQ and troubleshooting guide](https://www.qodo.ai/blog/technical-faq-and-troubleshooting/).
+**Need help? [Join our Discord community!](https://discord.gg/kG35uSHDBc)**
 
-**[Join our Discord community!](https://discord.gg/kG35uSHDBc)**
+---
 
 ## Data Sharing
 
 Similar to other popular generative-AI tools, we transmit code snippets to our servers. You can learn more in our [terms of use](https://www.qodo.ai/terms) and [privacy policy](https://www.qodo.ai/privacy-policy).
 
-You can opt out of sharing data with Qodo.
-<br>Go to the extension's settings and check the box `Opt out of sharing my data with Qodo`.
+You can opt out of sharing data with Qodo. For more information, visit our [data sharing page](https://docs.qodo.ai/qodo-documentation/qodo-gen/data-sharing).
