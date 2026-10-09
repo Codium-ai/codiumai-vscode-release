@@ -1,3 +1,5 @@
+**This extension (formerly Qodo Gen) is being sunset.** Switch to the [Qodo Agentic Toolbox](https://www.qodo.ai/features/qodo-agentic-toolbox/), the quality toolbox for your coding agents (Claude Code, Codex, Kiro and more).
+
 # Qodo: Local Code Review
 
 ### Shift code reviews left and commit with confidence.
