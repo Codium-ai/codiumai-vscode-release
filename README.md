@@ -1,4 +1,4 @@
-**This extension (formerly Qodo Gen) is being sunset.** Switch to the [Qodo Agentic Toolbox](https://www.qodo.ai/features/qodo-agentic-toolbox/), the quality toolbox for your coding agents (Claude Code, Codex, Kiro and more).
+**The Qodo IDE plugin is being retired on October 30, 2026.** Local code review now runs inside the coding agents you already use. Set up the Qodo Agentic Toolbox to keep reviewing code before you open a PR. [Get started](https://docs.qodo.ai/agentic-toolbox)
 
 # Qodo: Local Code Review
 
